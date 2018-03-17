@@ -2,17 +2,19 @@
 <!--Navbar-->
         <nav class="navbar fixed-top navbar-expand-lg  scrolling-navbar">
             <div class="container">
-                <a href="../[array]"><img class="img img-responsive img-logo" src="img/logo-nombre.png" alt="logo-name"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
+                <div class="col-4">
+                    <a href="../[array]"><img class="img img-responsive img-logo" src="img/logo-nombre.png" alt="logo-name"><span class="text-white title-logo">Expertos en Tic</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
-                </button>
+                    </button>
+                </div>
                 <div <?php if (isset($_SESSION['user_log'])) {
-                    ?> class="col-sm-12 col-md-12 col-lg-8 collapse navbar-collapse" <?php 
+                    ?> class="col-sm-12 col-md-12 col-lg-7 collapse navbar-collapse" <?php 
                 }else if(isset($_GET[':']) || isset($_GET["servicios"])){
-                    ?> class="col-sm-12 col-md-12 col-lg-10 collapse navbar-collapse" <?php 
+                    ?> class="col-sm-12 col-md-12 col-lg-8 collapse navbar-collapse" <?php 
                 }else if (!isset($_GET[':']) && !isset($_GET['user_log'])) {
-                     ?> class="col-sm-12 col-md-12 col-lg-6 collapse navbar-collapse" <?php 
+                     ?> class="col-sm-12 col-md-12 col-lg-5 collapse navbar-collapse" <?php 
                 } ?> id="navbarContent">
                     <!--Links-->
                     <ul class="navbar-nav mr-auto smooth-scroll">
@@ -77,26 +79,6 @@
                         ?>
                         
                     </ul>
-                    <div class="col-md-2 col-lg-2 white-text">
-                        <!--Social Icons-->
-                        <ul class="navbar-nav nav-flex-icons">
-                            <li class="nav-item">
-                                <a class="nav-link">
-                                    <i class="fab fa-facebook-square"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">
-                                    <i class="fab fa-twitter-square"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </nav>

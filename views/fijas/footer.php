@@ -3,15 +3,15 @@
     <footer class="page-footer center-on-small-only mt-0">
         <!--Footer links-->
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInUp" data-wow-delay="0.5s">
                 <!--First column-->
                 <div class="col-md-3 col-lg-4 col-xl-3 mb-r">
                     <h6 class="spacing font-bold">
                         <strong>Array</strong>
                     </h6>
                     <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elituod maxime incidunt, possimus labore magni, corporis
-                        minima perspiciatis in. ut libero doloribus!</p>
+                    <p>Somos una empresa colombiana cuyo objetivo principal es trabajar con TICs (Tecnologias de la Información y las Comunicaciones).
+                    </p>
                 </div>
                 <!--/.First column-->
 
@@ -67,8 +67,7 @@
                         <i class="fa fa-envelope mr-3"></i> contacto@array.com.co</p>
                     <p>
                         <i class="fa fa-phone mr-3"></i> +57 321 807 0767</p>
-                    <p>
-                        <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                    
                 </div>
                 <!--/.Fourth column-->
             </div>
