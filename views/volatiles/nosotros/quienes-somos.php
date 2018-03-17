@@ -39,6 +39,13 @@
                         <p>Cofundador & Director de ArrayInnovation.</p></a>
                     </div>
                 </div>
+                <div class="col-12 col-sm-6 col-md-3 wow zoomIn mt-5" data-wow-delay="0.7s">
+                    <div class="text-center ">
+                        <a class="text-white" href=""><img class="img im-fluid img-team" src="img/team/ProfSandra.jpg" alt="array" title="Sandra Diaz">
+                        <h5>Sandra Diaz</h5>
+                        <p>Asesora - Idea de negocio.</p></a>
+                    </div>
+                </div>
                 <div class="col-12 col-sm-6 col-md-3 wow zoomIn mt-5" data-wow-delay="0.6s">
                     <div class="text-center">
                         <a class="text-white" href=""><img class="img im-fluid img-team" src="img/team/carlos.jpg" alt="array" title="Carlos Villera">
@@ -53,6 +60,7 @@
                         <p>Cofundador & director de ArrayAudioVisual.</p></a>
                     </div>
                 </div>
+                
                 
             </div>
         </div>
