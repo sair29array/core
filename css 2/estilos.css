@@ -52,6 +52,9 @@ main {
   max-width: 200px;
   max-height: 70px; }
 
+.title-logo {
+  font-size: 23px; }
+
 /* estilos section somos-tic */
 .somos-tic {
   background: #e8eaf6; }
@@ -117,7 +120,7 @@ main {
   cursor: pointer;
   position: fixed;
   bottom: 25px;
-  right: 20px;
+  left: 20px;
   z-index: 2;
   border-radius: 25em; }
 
@@ -291,7 +294,7 @@ footer a:hover {
 
 /* estilos iniciar sesion y crear cuenta*/
 .iniciar-sesion {
-  margin-top: 80px !important;
+  margin-top: 100px !important;
   background: #FFFFFF;
   color: #000000; }
 
@@ -320,7 +323,7 @@ footer a:hover {
   margin-top: 100px !important; }
 
 .team {
-  background: #1b8098;
+  background: #ff3a5f;
   color: #FFFFFF; }
 
 .boton3 {
@@ -361,7 +364,7 @@ footer a:hover {
   box-sizing: border-box; }
 
 .servicios {
-  margin-top: 70px !important;
+  margin-top: 100px !important;
   background: url("../img/servicios.jpg") no-repeat center fixed;
   background-size: cover; }
 
@@ -519,17 +522,17 @@ footer a:hover {
   transform: scale(1.1); }
 
 /*portafolio*/
-.portafolio {
-  margin-top: 70px !important;
+.portafolio, .portafolio-medios {
+  margin-top: 100px !important;
   background: #e8eaf6; }
 
-.portafolio .card {
+.portafolio, .portafolio-medios .card {
   margin-bottom: 15px;
   margin-top: 15px;
   margin-left: 5px;
   margin-right: 8px; }
 
-.portafolio .card:hover {
+.portafolio, .portafolio-medios .card:hover {
   -webkit-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
@@ -537,12 +540,12 @@ footer a:hover {
   -ms-transform: scale(1.1);
   transform: scale(1.1); }
 
-.portafolio .card-header {
+.portafolio, .portafolio-medios .card-header {
   background-size: cover;
   height: 140px;
   width: auto; }
 
-.portafolio .card-title {
+.portafolio, .portafolio-medios .card-title {
   font-size: 23px;
   /*nombre de las tarjetas*/ }
 
@@ -572,6 +575,10 @@ footer a:hover {
 
 .hotel-klary {
   background: url("../img/hotel-klary.png"); }
+
+/*tarjetas medios audiovisuales*/
+.maxitienda-comercial {
+  background: url("../img/maxitienda.png"); }
 
 /*titulo de cada card del portafolio*/
 .title-portafolio {
