@@ -1,9 +1,9 @@
 <?php  ?>
    <!-- servicios -->
-   <section class="servicios mt-5">
+   <section class="servicios">
         <div class="container">
             <div class="row justify-content-center blue-text">
-            <div class="col-12 text-center m-3 wow zoomIn" data-wow-delay="0.4s">
+            <div class="col-12 text-center mt-5 mb-4 wow zoomIn" data-wow-delay="0.4s">
                 <h1 class="h1-responsive mb-0"><strong>Nuestros servicios</strong></h1>
                 <h5 class="h5-responsive white-text">Te ofrecemos calidad y cumplimiento en cada uno de nuestros servicios.</h5>
             </div>
@@ -111,25 +111,25 @@
    <section class="lineas-accion">
         <div class="container-fluid">
             <div class="row aling-content-center">
-                <div class="col-12 col-sm-6 col-md-6 lineas">
+                <div class="col-12 col-sm-6 col-md-6 lineas text-center">
                    <h1 class="h1-responsive mt-5 ml-4 mb-0 blue-text text-uppercase  wow fadeInLeft" data-wow-delay="0.3s"><strong>Lineas de acción</strong></h1>
-                   <h3 class="mt-0 ml-4 mb-4 white-text  wow fadeInLeft" data-wow-delay="0.3s">Correspondientes a nuestros servicios.</h3>
+                   <h3 class="mt-0 ml-4 mb-4 white-text wow fadeInLeft" data-wow-delay="0.4s">Correspondientes a nuestros servicios.</h3>
+                   <!-- <img class="img img-fluid mb-0" src="img/grafico.png" alt="grafico-crecimiento"> -->
                </div>
                <div class="col-12 col-sm-6 col-md-6 lineas-items white-text">
                    <div class="m-5 wow fadeInUp" data-wow-delay="0.3s">
-                       <i class="fa fa-caret-right fa-2x bloque mr-2"></i>
-                       <p class="bloque">Desarrollar recursos (Software) que se puedan implementar en diferentes tipos de entidades con el fin de satisfacer una necesidad en especifico.</p>
+                       <i class="fa fa-caret-right  bloque mr-2"></i>
+                       <p class="bloque lineas_desarrollo_fz">Desarrollar recursos (Software) que se puedan implementar en diferentes tipos de entidades con el fin de satisfacer una necesidad en especifico.</p>
                    </div>
                    <div class="m-5  wow fadeInUp" data-wow-delay="0.4s">
-                       <i class="fa fa-caret-right fa-2x bloque mr-2"></i>
-                       <p class="bloque">Utilizar los medios audiovisuales para crear la imagen publicitaria de diferentes tipos de entidades y la producción multimedia en eventos.</p>
+                       <i class="fa fa-caret-right  bloque mr-2"></i>
+                       <p class="bloque lineas_desarrollo_fz">Utilizar los medios audiovisuales para crear la imagen publicitaria de diferentes tipos de entidades y la producción multimedia en eventos.</p>
                    </div>
                    <div class="m-5  wow fadeInUp" data-wow-delay="0.5s">
-                       <i class="fa fa-caret-right fa-2x bloque mr-2"></i>
-                       <p class="bloque">Brindar soporte tecnico en redes y computadoras a entidades, con el fin de que estas ofrezcan a sus clientes un mejor servicio.</p>
+                       <i class="fa fa-caret-right  bloque mr-2"></i>
+                       <p class="bloque lineas_desarrollo_fz">Brindar soporte tecnico en redes y computadoras a entidades, con el fin de que estas ofrezcan a sus clientes un mejor servicio.</p>
                    </div>
                </div>
             </div>
         </div>  
    </section>
-   

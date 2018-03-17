@@ -27,20 +27,28 @@ $title ="Array | Expertos en TIC";
 
 $description = "Array - Expertos en TIC | Somos una empresa colombiana cuyo objetivo principal es trabajar con TIC's (Tecnologias de la Información y las Comunicaciones) desarrollando mejores herramientas que facilitan el trabajo diario de cualquier empresa. | CEO - Sair Sánchez - Array";
 
-$keywords = "array colombia, array empresa, array diseño de paginas web, Sair Sánchez - array, ¿cómo diseñar una página web?";
+$keywords = "Tecnologías de la Información y las Comunicaciones, creación de comerciales para mi empresa, diseño de paginas web , Sair Sánchez - array, ¿cómo diseñar una página web?";
 switch (@$_GET[":"]) 
 {
     case "iniciar-sesion":
        $title ="Array | Iniciar sesión";
+       $description = "Inicia sesión en array y mira tu actividad, contrata servicios y compra productos exclusivos de array | Expertos en TIC";
+       $keywords = "array, array iniciar sesión, array login, Sair Sánchez - array, empresas que ofrezcan servicios de tecnología"; 
         break;
     case "crear-cuenta":
        $title ="Array | Crear cuenta";
+       $description  = "Registrate y tendras grandes privilegios, mejores servicios y una mejor atención. Podrás contratar nuestros servicios y comprar nuestros productos y software exclusivo.";
+       $keywords = "crear cuenta array, registrarme array, array registro, array Sign up, Tecnologías de la Información y las Comunicaciones";
         break;
     case "usuarios":
        $title ="Array | iniciar sesión o crear cuenta ";
+       $description = "";
+       $keywords = "";
         break;
     case "servicios-array":
        $title ="Array | Servicios ";
+       $description = "Te ofrecemos calidad y cumplimiento en cada uno de nuestros servicios. En array diseñamos y desarrollamos sistemas informáticos en el nuevo paradigma de la WEB 2.0. Brindamos servicios como: Soporte tecnico de computadoras y redes locales, Creamos comerciales para radio y tv. Contamos con un excelente grupo de diseñadores gráficos que estan dispuestos a entregarle a nuestros clientes una buena imagen visual para sus empresas.";
+       $keywords = "cuñas para radio, comerciales para empresa,Tecnologías de la Información y las Comunicaciones, ¿Cuánto cuesta la creación de una página web?, diseño gráfico para empresas ";
         break;
     case "quienes-somos":
        $title ="Array | Quienes somos ";
@@ -59,6 +67,24 @@ switch (@$_GET[":"])
         break;
  
 }
+
+switch ($_GET["servicios"]) 
+{
+    case 'Diseño_De_Paginas_web':
+        $title ="Array | Diseño de páginas web";
+        break;
+    case 'radio_online_streaming_hd':
+        $title ="Array | Radio online y streaming HD";
+        break;
+    case 'Sofware-Multipropósito':
+        $title ="Array | Software Multipropósito";
+        break;
+    case 'DiseñoGráficoCorporativo':
+        $title ="Array | Diseño Gráfico Multipropósito";
+        break;
+    
+}
+
 
 
 

@@ -1,15 +1,14 @@
 <?php  ?>
 
-    <section class="portafolio mt-5">
+    <section class="portafolio">
         <div class="container">
             <div class="row">
-                <div class="col-12 mb-4 wow zoomIn" data-wow-delay="0.4s">
-                    <h1 class="h1-responsive text-center m-0 text-uppercase title-portafolio divider-new mt-3">Nuestros proyectos exitosos</h1>
-                    <p style="text-align: center;">En array nos da gusto poder presentarte nuestro portafolio de proyectos exitosos, mediante el cual ponemos a tu disposición nuestra experiencia orientada a la satisfacción de las necesidades razonables de nuestros clientes.</p>
+                <div class="col-12 mb-4 wow zoomIn mt-5 text-center" data-wow-delay="0.4s">
+                    <h1 class="h1-responsive  m-0 text-uppercase title-portafolio  mt-3">Nuestros proyectos exitosos</h1>
+                    <hr class="">
+                    <p class="mb-5">En array nos da gusto poder presentarte nuestro portafolio de proyectos exitosos, mediante el cual ponemos a tu disposición nuestra experiencia.</p>
                 </div>
-            </div>
-            <!--  -->
-            <div class="row justify-content-between wow fadeInUp" data-wow-delay="0.4s">
+              <div class="row justify-content-between wow fadeInUp" data-wow-delay="0.4s">
                 <div class="col-12 col-md-4">
                             <center>
                                 <a href="../[array]/?:=Portafolio-array&categoria=DesarrolloWeb"><span><strong style="color: #2196f3;" >Desarrollo de recursos (Apps Web)</strong></span></a>
@@ -45,10 +44,8 @@
                         include("MantSoporteTecRyC.php");
                     }
                  ?>
-               
             </div>
         </div>
         </div>
         </div>
     </section>
-
