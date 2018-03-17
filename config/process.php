@@ -274,7 +274,6 @@
 
             // el servicio es el que viene popr arametro desde la agina del servicio que el user haya escogido ... al igual que el tipo de solicitud que viene siendo el plan
             return $consult;
-            
         }
 
 
