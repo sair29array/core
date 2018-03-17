@@ -2,13 +2,13 @@
 <!--Navbar-->
         <nav class="navbar fixed-top navbar-expand-lg  scrolling-navbar">
             <div class="container">
-                <div class="col-4">
-                    <a href="../[array]"><img class="img img-responsive img-logo" src="img/logo-nombre.png" alt="logo-name"><span class="text-white title-logo">Expertos en Tic</span></a>
+            
+                    <a href="../[array]"><img class="img img-responsive img-logo" src="img/logo-nombre.png" alt="logo-name"><span class="text-white title-logo">ARRAY</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                     </button>
-                </div>
+             
                 <div <?php if (isset($_SESSION['user_log'])) {
                     ?> class="col-sm-12 col-md-12 col-lg-7 collapse navbar-collapse" <?php 
                 }else if(isset($_GET[':']) || isset($_GET["servicios"])){

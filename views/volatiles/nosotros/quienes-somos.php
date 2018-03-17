@@ -25,35 +25,42 @@
                 <div class="col-12 text-center m-5 wow fadeInDown" data-wow-delay="0.3s">
                     <h1 class="h1-responsive divider-new">NUESTRO EQUIPO</h1>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 wow zoomIn mt-5" data-wow-delay="0.4s">
+                <div class="col-12 col-sm-6 col-md-4 wow zoomIn mt-5" data-wow-delay="0.4s">
                     <div class="text-center">
                        <a class="text-white" href=""> <img class="img im-fluid img-team" src="img/team/sair.jpg" alt="array" title="Sair Sanchez">
                         <h5>Sair Sánchez</h5>
                         <p>CEO & director de ArrayDev. </p></a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 wow zoomIn mt-5" data-wow-delay="0.5s">
+                <div class="col-12 col-sm-6 col-md-4 wow zoomIn mt-5" data-wow-delay="0.5s">
                     <div class="text-center">
                         <a class="text-white" href=""><img class="img im-fluid img-team" src="img/team/eric.jpg" alt="array" title="Eric Martinez">
                         <h5>Eric Martinez</h5>
                         <p>Cofundador & Director de ArrayInnovation.</p></a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 wow zoomIn mt-5" data-wow-delay="0.7s">
+                <div class="col-12 col-sm-6 col-md-4 wow zoomIn mt-5" data-wow-delay="0.7s">
                     <div class="text-center ">
                         <a class="text-white" href=""><img class="img im-fluid img-team" src="img/team/ProfSandra.jpg" alt="array" title="Sandra Diaz">
                         <h5>Sandra Diaz</h5>
                         <p>Asesora - Idea de negocio.</p></a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 wow zoomIn mt-5" data-wow-delay="0.6s">
+                <div class="col-12 col-sm-6 col-md-4 wow zoomIn mt-5" data-wow-delay="0.6s">
                     <div class="text-center">
                         <a class="text-white" href=""><img class="img im-fluid img-team" src="img/team/carlos.jpg" alt="array" title="Carlos Villera">
                         <h5>Carlos Villera</h5>
                         <p>Cofundador & Director de ArrayFrontEnd.</p></a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3 wow zoomIn mt-5" data-wow-delay="0.7s">
+                <div class="col-12 col-sm-6 col-md-4 wow zoomIn mt-5" data-wow-delay="0.7s">
+                    <div class="text-center ">
+                        <a class="text-white" href=""><img class="img im-fluid img-team" src="img/team/duvan.jpg" alt="array" title="Duvan Ricardo">
+                        <h5>Duvan Ricardo</h5>
+                        <p>Director de ArrayDesign y comunicación visual.</p></a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 wow zoomIn mt-5" data-wow-delay="0.7s">
                     <div class="text-center ">
                         <a class="text-white" href=""><img class="img im-fluid img-team" src="img/team/daniel.jpg" alt="array" title="Daniel Martinez">
                         <h5>Daniel Martinez</h5>
