@@ -27,7 +27,7 @@ $title ="Array | Expertos en TIC";
 
 $description = "Array - Expertos en TIC | Somos una empresa colombiana cuyo objetivo principal es trabajar con TIC's (Tecnologias de la Información y las Comunicaciones) desarrollando mejores herramientas que facilitan el trabajo diario de cualquier empresa. | CEO - Sair Sánchez - Array";
 
-$keywords = "Tecnologías de la Información y las Comunicaciones, creación de comerciales para mi empresa, diseño de paginas web , Sair Sánchez - array, ¿cómo diseñar una página web?";
+$keywords = "Tecnologías de la Información y las Comunicaciones, creación de comerciales para mi empresa, diseño de paginas web , Sair Sánchez - array, Bienvenido a array";
 switch (@$_GET[":"]) 
 {
     case "iniciar-sesion":
@@ -48,10 +48,12 @@ switch (@$_GET[":"])
     case "servicios-array":
        $title ="Array | Servicios ";
        $description = "Te ofrecemos calidad y cumplimiento en cada uno de nuestros servicios. En array diseñamos y desarrollamos sistemas informáticos en el nuevo paradigma de la WEB 2.0. Brindamos servicios como: Soporte tecnico de computadoras y redes locales, Creamos comerciales para radio y tv. Contamos con un excelente grupo de diseñadores gráficos que estan dispuestos a entregarle a nuestros clientes una buena imagen visual para sus empresas.";
-       $keywords = "cuñas para radio, comerciales para empresa,Tecnologías de la Información y las Comunicaciones, ¿Cuánto cuesta la creación de una página web?, diseño gráfico para empresas ";
+       $keywords = "cuñas para radio, comerciales para empresa,Tecnologías de la Información y las Comunicaciones,servicios array, soluciones informáticas, nuestros servicios,¿Cuánto cuesta la creación de una página web?, diseño gráfico para empresas ";
         break;
     case "quienes-somos":
        $title ="Array | Quienes somos ";
+       $description = "Somos una empresa colombiana cuyo objetivo principal es trabajar con TICs (Tecnologias de la Información y las Comunicaciones) desarrollando mejores herramientas que facilitan el trabajo diario de cualquier empresa.";
+       $keywords = "Empresa array, array colombia, que es un array, empresas tecnológicas en colombia";
         break;
     case "productos-array":
        $title ="Array | Productos ";
@@ -100,6 +102,9 @@ switch ($_GET["servicios"])
 <html lang="es" class="full-height">
 
 <head>
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="691814b4-a7c8-44d9-8986-8c39ff2ebf52";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
      <meta name="description" content="<?php echo $description; ?>">
@@ -275,5 +280,3 @@ switch ($_GET["servicios"])
 
 </html>
 
-
-<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="691814b4-a7c8-44d9-8986-8c39ff2ebf52";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>

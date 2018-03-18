@@ -32,7 +32,7 @@ var app = new Vue({
          {
                 app.cargando ="Cargando...";
        
-                var page = "../[array]/?:=iniciar-sesion&user="+datos.resultt;
+                var page = "./?:=iniciar-sesion&user="+datos.resultt;
                 
                 location.href=page;
  

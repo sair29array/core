@@ -1,12 +1,12 @@
 <?php 
-if (isset($_SESSION['user_log'])) { ?> <script> window.location="../[array]/" ;</script> <?php  }
+if (isset($_SESSION['user_log'])) { ?> <script> window.location="./" ;</script> <?php  }
 if ( isset($_GET['user'])) {
     $u = $_GET["user"];
     $_SESSION['user_log']=$u;
     
     ?>
     <script type="text/javascript">
-       alertify.alert('Que gusto tenerte aquí de nuevo...','', function(){ window.location="../[array]/" ; }).set({transition:'flipy',message: '¡Bienvenido!'}).show(); 
+       alertify.alert('Que gusto tenerte aquí de nuevo...','', function(){ window.location="./" ; }).set({transition:'flipy',message: '¡Bienvenido!'}).show(); 
     </script>
     <?php 
    
@@ -66,7 +66,7 @@ if ( isset($_GET['user'])) {
 			         </div>
 			            <div class="card-footer black-text text-center">
 			            	<h5 class="bloque ">¿No tienes cuenta?</h5>
-			            	<a class="btn btn-sm btn-outline-info" href="../[array]/?:=crear-cuenta">Registrate</a>
+			            	<a class="btn btn-sm btn-outline-info" href="./?:=crear-cuenta">Registrate</a>
 			            </div>
 			        
 			</div>    

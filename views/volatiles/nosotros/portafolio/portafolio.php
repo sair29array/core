@@ -11,7 +11,7 @@
               <div class="row justify-content-between wow fadeInUp" data-wow-delay="0.4s">
                 <div class="col-12 col-md-4">
                             <center>
-                                <a href="../[array]/?:=Portafolio-array&categoria=DesarrolloWeb"><span><strong style="color: #2196f3;" >Desarrollo de recursos (Apps Web)</strong></span></a>
+                                <a href="./?:=Portafolio-array&categoria=DesarrolloWeb"><span><strong style="color: #2196f3;" >Desarrollo de recursos (Apps Web)</strong></span></a>
                             <?php if ($_GET["categoria"]=="DesarrolloWeb") {
                                 ?><hr class="blue col-10 mt-2"><?php 
                             } ?>
@@ -19,7 +19,7 @@
                 </div>
                  <div class="col-12 col-md-4">
                             <center>
-                                <a href="../[array]/?:=Portafolio-array&categoria=MedAudVisuales"><span><strong style="color: #2196f3;" >Medios audiovisuales</strong></span></a>
+                                <a href="./?:=Portafolio-array&categoria=MedAudVisuales"><span><strong style="color: #2196f3;" >Medios audiovisuales</strong></span></a>
                             <?php if ($_GET["categoria"]=="MedAudVisuales") {
                                 ?><hr class="blue col-10 mt-2"><?php 
                             } ?>
@@ -27,7 +27,7 @@
                 </div>
                  <div class="col-12 col-md-4">
                             <center>
-                                <a href="../[array]/?:=Portafolio-array&categoria=MantSoporteTecRyC"><span><strong style="color: #2196f3;" >Soporte técnico en redes y computadoras</strong></span></a>
+                                <a href="./?:=Portafolio-array&categoria=MantSoporteTecRyC"><span><strong style="color: #2196f3;" >Soporte técnico en redes y computadoras</strong></span></a>
                             <?php if ($_GET["categoria"]=="MantSoporteTecRyC") {
                                 ?><hr class="blue col-10 mt-2"><?php 
                             } ?>

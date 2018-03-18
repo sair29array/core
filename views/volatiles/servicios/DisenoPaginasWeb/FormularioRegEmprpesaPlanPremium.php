@@ -98,7 +98,7 @@
         ///////////////////////
  		$sair->registrar_solicitud_contrato($id_user,"diseño_paginas_web",$id_plan,$facturacion_empresa);
 
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-premium&Reg-empresa&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium&Reg-empresa&solicitud-enviada"</script> <?php 
  	}
 
 
@@ -121,7 +121,7 @@
  		$id_plan = 3 ; // quiere decir que es el plan numero 2 dentro de la db osea el medium 	
  		$facturacion_empresa = 0; 
  		$sair->registrar_solicitud_contrato($id_user,"diseño_paginas_web",$id_plan,$facturacion_empresa);
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-premium&Reg-empresa&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium&Reg-empresa&solicitud-enviada"</script> <?php 
  	}
 
  	if (isset($_POST["continuar_contrato2si"])) 
@@ -141,7 +141,7 @@
 $id_plan = 3 ; // quiere decir que es el plan numero 2 dentro de la db osea el medium 
  		$facturacion_empresa = 1;
  		$sair->registrar_solicitud_contrato($id_user,"diseño_paginas_web",$id_plan,$facturacion_empresa);
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-premium&Reg-empresa&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium&Reg-empresa&solicitud-enviada"</script> <?php 
  	}
 
 

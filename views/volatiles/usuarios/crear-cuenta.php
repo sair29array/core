@@ -1,12 +1,12 @@
 <?php 
-if (isset($_SESSION['user_log'])) { ?> <script> window.location="../[array]/" ;</script> <?php  }// si ya el usuario inicio sesion -- ni tiene nada que hacer aqui !
+if (isset($_SESSION['user_log'])) { ?> <script> window.location="./" ;</script> <?php  }// si ya el usuario inicio sesion -- ni tiene nada que hacer aqui !
 if ( isset($_GET['user'])) {
     $u = $_GET["user"];
     $_SESSION['user_log']=$u;
     
     ?>
     <script type="text/javascript">
-        alertify.alert('Ahora eres parte de ARRAY', '', function(){ window.location="../[array]/" ; }).set({transition:'flipy',message: '¡Comencemos a trabajar!'}).show();
+        alertify.alert('Ahora eres parte de ARRAY', '', function(){ window.location="./" ; }).set({transition:'flipy',message: '¡Comencemos a trabajar!'}).show();
     </script>
     <?php 
 }

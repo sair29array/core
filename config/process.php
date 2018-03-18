@@ -65,7 +65,7 @@
      	public function CerrarSesion()
      	{
      		session_destroy();
-     		?><script>window.location="../[array]/"</script><?php 
+     		?><script>window.location="./"</script><?php 
      		
      	}
 
@@ -104,7 +104,7 @@
      		
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-básico&Reg-empresa";
+                window.location="./?servicios=Diseño_De_Paginas_web&solicitud=plan-básico&Reg-empresa";
             </script>
             <?php 
 
@@ -153,7 +153,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-medium&Reg-empresa";
+                window.location="./?servicios=Diseño_De_Paginas_web&solicitud=plan-medium&Reg-empresa";
             </script>
             <?php 
 
@@ -181,7 +181,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-premium&Reg-empresa";
+                window.location="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium&Reg-empresa";
             </script>
             <?php 
 
@@ -227,7 +227,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=radio_online_streaming_hd&solicitud=plan-básico&Reg-empresa";
+                window.location="./?servicios=radio_online_streaming_hd&solicitud=plan-básico&Reg-empresa";
             </script>
             <?php 
 
@@ -246,7 +246,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=radio_online_streaming_hd&solicitud=plan-medium&Reg-empresa";
+                window.location="./?servicios=radio_online_streaming_hd&solicitud=plan-medium&Reg-empresa";
             </script>
             <?php 
 
@@ -268,7 +268,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=radio_online_streaming_hd&solicitud=plan-premium&Reg-empresa";
+                window.location="./?servicios=radio_online_streaming_hd&solicitud=plan-premium&Reg-empresa";
             </script>
             <?php 
 
@@ -287,7 +287,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-escritorio&Reg-empresa";
+                window.location="./?servicios=Sofware-Multipropósito&solicitud=plan-escritorio&Reg-empresa";
             </script>
             <?php 
 
@@ -306,7 +306,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-web&Reg-empresa";
+                window.location="./?servicios=Sofware-Multipropósito&solicitud=plan-web&Reg-empresa";
             </script>
             <?php 
 
@@ -327,7 +327,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-moviles&Reg-empresa";
+                window.location="./?servicios=Sofware-Multipropósito&solicitud=plan-moviles&Reg-empresa";
             </script>
             <?php 
 
@@ -349,7 +349,7 @@
             
             ?>
             <script type="text/javascript">
-                window.location="../[array]/?servicios=DiseñoGráficoCorporativo&solicitud=<?php echo $plan; ?>";
+                window.location="./?servicios=DiseñoGráficoCorporativo&solicitud=<?php echo $plan; ?>";
             </script>
             <?php 
 

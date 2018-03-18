@@ -3,7 +3,7 @@ if (isset($_GET['Reg-empresa'])) {
     $email = $user_['email'];
         $datos_user = $sair->verificarSiLosDatosEstanCompletos($email);// verifica si los datos del user se encuentran completos
     if ($datos_user == 0 ) {
-        ?><script type="text/javascript">window.location="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-web";</script><?php 
+        ?><script type="text/javascript">window.location="./?servicios=Sofware-Multipropósito&solicitud=plan-web";</script><?php 
       
     }
 }
@@ -18,10 +18,10 @@ if (isset($_GET['Reg-empresa'])) {
                     <p class="banner-txt">¿Aún no eres usuario array?<br>
 						para continuar con la solicitud debes iniciar sesión o crear una cuenta. </p>
 						<!-- La idea es que cuando el user nuevo no haya inicado session de clic en iniciar o crear cuenta .. y despues de haber inicado o creado la cuenta lo devuelva a donde estaba  -->
-                    <a href="../[array]/?:=iniciar-sesion">
+                    <a href="./?:=iniciar-sesion">
                         <button type="button" class="btn boton-c btn-lg mb-5">Iniciar sesión </button>
 					</a>
-					<a href="../[array]/?:=crear-cuenta">
+					<a href="./?:=crear-cuenta">
                    		 <button type="button" class="btn boton-c btn-lg mb-5">Crear Cuenta </button>
                     </a>
                 </div>

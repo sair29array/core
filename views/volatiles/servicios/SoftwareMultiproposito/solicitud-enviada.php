@@ -24,5 +24,5 @@
                 </div>
                 <!--Grid row-->
             </div>
-            <META HTTP-EQUIV=Refresh CONTENT="10; ../[array]/">
+            <META HTTP-EQUIV=Refresh CONTENT="10; ./">
         </section>

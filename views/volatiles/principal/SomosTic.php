@@ -34,7 +34,7 @@
                         <div class="tierra"></div>
                     </div>
                     <div class="col-12 text-center">
-                    <a href="../[array]/?:=quienes-somos"  role="button"  class="btn boton1 btn-lg mb-5 wow zoomIn" data-wow-delay="0.1s">Conocer más
+                    <a href="./?:=quienes-somos"  role="button"  class="btn boton1 btn-lg mb-5 wow zoomIn" data-wow-delay="0.1s">Conocer más
                         <i class="fas fa-angle-right"></i>
                     </a>
                 </div>

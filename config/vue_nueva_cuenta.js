@@ -38,7 +38,7 @@ var app = new Vue({
          {
                 app.cargando ="Cargando...";
        
-                var page = "../[array]/?:=crear-cuenta&user="+datos.resultt;
+                var page = "./?:=crear-cuenta&user="+datos.resultt;
                 
                 window.location= page;
 

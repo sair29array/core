@@ -123,7 +123,7 @@ if (!isset($_GET['solicitud-enviada']))
 
  		$sair->registrar_solicitud_contrato($id_user,$servicio,$id_planes,$facturacion_empresa);
 
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=DiseñoGráficoCorporativo&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=DiseñoGráficoCorporativo&solicitud-enviada"</script> <?php 
 
 
  	}
@@ -157,7 +157,7 @@ if (!isset($_GET['solicitud-enviada']))
 
  		$sair->registrar_solicitud_contrato($id_user,$servicio,$id_planes,$facturacion_empresa);
 
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=DiseñoGráficoCorporativo&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=DiseñoGráficoCorporativo&solicitud-enviada"</script> <?php 
 
 
  	}
@@ -195,7 +195,7 @@ if (!isset($_GET['solicitud-enviada']))
 
  		$sair->registrar_solicitud_contrato($id_user,$servicio,$id_planes,$facturacion_empresa);
 
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=DiseñoGráficoCorporativo&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=DiseñoGráficoCorporativo&solicitud-enviada"</script> <?php 
  	}
 
 

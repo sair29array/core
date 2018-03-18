@@ -22,7 +22,7 @@ foreach ($PlanPremium as $pp) {
                         <div class="col-12 col-sm-6 col-md-4 mt-5 mb-2">
                             <div align="center">
                                 <div class="card" >
-                                    <a href="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-básico">
+                                    <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-básico">
                                         
                                         <div class="card-header stylish-color white-text">
                                         <!--h4>PLAN BASICO</h4-->
@@ -77,7 +77,7 @@ foreach ($PlanPremium as $pp) {
                                                 3 meses</p>
 
                                             <div class="card-footer text-center">
-                                                <a href="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-básico"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                                <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-básico"><button class="btn boton-c btn-lg">Solicitar</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@ foreach ($PlanPremium as $pp) {
                         <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
                             <div align="center">
                                 <div class="card">
-                                    <a href="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-medium">
+                                    <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-medium">
                                         <div class="card-header primary-color white-text">
                                         <!--h4>PLAN MEDIUM</h4-->
                                         <hr>
@@ -143,7 +143,7 @@ foreach ($PlanPremium as $pp) {
 
                                     </div>
                                      <div class="card-footer text-center">
-                                                <a href="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-medium"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                                <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-medium"><button class="btn boton-c btn-lg">Solicitar</button></a>
                                      </div>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ foreach ($PlanPremium as $pp) {
                         <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
                             <div align="center">
                                 <div class="card">
-                                    <a href="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-premium">
+                                    <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium">
                                         <div class="card-header stylish-color white-text">
                                         <!--h4>PLAN PREMIUM</h4-->
                                         <hr>
@@ -208,7 +208,7 @@ foreach ($PlanPremium as $pp) {
 
                                     </div>
                                     <div class="card-footer text-center" >
-                                                <a href="../[array]/?servicios=Diseño_De_Paginas_web&solicitud=plan-premium"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                                <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium"><button class="btn boton-c btn-lg">Solicitar</button></a>
                                     </div>
                                 </div>
                             </div>

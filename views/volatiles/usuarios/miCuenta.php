@@ -1,5 +1,5 @@
 <?php 
-if (!isset($_SESSION["user_log"])) { ?> <script>window.location="../[array]/"</script> <?php  }
+if (!isset($_SESSION["user_log"])) { ?> <script>window.location="./"</script> <?php  }
  ?>
 
     <section class="cuenta">
@@ -41,7 +41,7 @@ if (!isset($_SESSION["user_log"])) { ?> <script>window.location="../[array]/"</s
                             <hr>
                         </div>
                         <div class="mt-5 mb-5">
-                            <a href="../[array]/?:=MiCuenta&session=destroy"><i class="fas fa-sign-out-alt fa-2x blue-text bloque mr-3"></i>
+                            <a href="./?:=MiCuenta&session=destroy"><i class="fas fa-sign-out-alt fa-2x blue-text bloque mr-3"></i>
                             <h3 class="grey-text bloque">Cerrar Sesión</h3></a>
                             <hr>
                         </div>

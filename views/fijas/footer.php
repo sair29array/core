@@ -22,16 +22,16 @@
                     </h6>
                     <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="../[array]/?:=quienes-somos">¿Que es array?</a>
+                        <a href="./?:=quienes-somos">¿Quienes somos?</a>
                     </p>
                     <p>
-                        <a href="../[array]/?:=servicios-array">Servicios</a>
+                        <a href="./?:=servicios-array">Servicios</a>
                     </p>
                     <p>
-                        <a href="../[array]/?:=productos-array">Productos</a>
+                        <a href="./?:=productos-array">Productos</a>
                     </p>
                     <p>
-                        <a href="../[array]/?:=Portafolio-array&categoria=DesarrolloWeb">Portafolio</a>
+                        <a href="./?:=Portafolio-array&categoria=DesarrolloWeb">Portafolio</a>
                     </p>
                 </div>
                 <!--/.Second column-->
@@ -43,7 +43,7 @@
                     </h6>
                     <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="../[array]?:=Politicas-de-Privacidad">Politica y privacidad</a>
+                        <a href="./?:=Politicas-de-Privacidad">Politica y privacidad</a>
                     </p>
                     <p>
                         <a href="#!">Condiciones y terminos de uso</a>

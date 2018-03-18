@@ -17,7 +17,7 @@
                             <h4><strong>Diseño & desarrollo de Páginas Web</strong></h4>
                             <p class="m-3">Diseñamos páginas totalmente responsive RWD, Tu página la podrán visualizar correctamente desde cualquier dispositivo.
                             </p>
-                            <a class="boton3 btn btn-md" href="../[array]/?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                             <h4> <strong>Radio Online Streaming HD</strong></h4>
                             <p class="m-3">Audio por Internet en directo y en diferido. Una Emisora Virtual transmitiendo al mundo entero 24/7.
                             </p>
-                            <a class="boton3 btn btn-md" href="../[array]/?servicios=radio_online_streaming_hd">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=radio_online_streaming_hd">CONTRATAR</a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                             <h4 > <strong>Software Multipropósito</strong></h4>
                             <p class="m-3">Creación de Herramientas Informáticas & Aplicaciones Web ajustadas a sus necesidades (e-commerce).
                             </p>
-                            <a class="boton3 btn btn-md" href="../[array]/?servicios=Sofware-Multipropósito">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=Sofware-Multipropósito">CONTRATAR</a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                             <h4> <strong>Diseño gráfico corporativo</strong></h4>
                             <p class="m-3">Elementos y signos por los que se hace posible encontrar una identificación única y visual de una marca en particular.
                             </p>
-                            <a class="boton3 btn btn-md" href="../[array]/?servicios=DiseñoGráficoCorporativo">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=DiseñoGráficoCorporativo">CONTRATAR</a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                             <h4> <strong>Comerciales para Radio y TV</strong></h4>
                             <p >Comerciales en formato .mp3 y videos institucionales HD que se adaptan a los propósitos de su empresa.
                             </p>
-                            <a class="boton3 btn btn-md" href="../[array]/?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                             <h4> <strong>Foto Estudio y realización Audiovisual</strong></h4>
                             <p>Fotografiamos y filmamamos eventos sociales, combinamos tecnologia de vanguardia con profesionales capacitados.
                             </p>
-                            <a class="boton3 btn btn-md" href="../[array]/?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                             <h4> <strong>Mantenimiento y soporte</strong></h4>
                             <p class="m-3">Mantenimiento & Reparación de sistemas informáticos, computadoras, redes locales. Asesoria y capacitación.
                             </p>
-                            <a class="boton3 btn btn-md" href="../[array]/?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,7 @@
                                 </h4>
                                 <!--Text-->
                                 <p class="mt-2">¿Quieres lanzar tu idea de negocio y convertila en un negocio rentable?</p>
-                                <button class="btn boton2 btn-sm"> <a  class="white-text" href="../[array]/?:=servicios-array">Saber más</a>
+                                <button class="btn boton2 btn-sm"> <a  class="white-text" href="./?:=servicios-array">Saber más</a>
                                     <i class="fas fa-angle-right"></i>
                                 </button>
                                
@@ -52,7 +52,7 @@
                                 <!--Text-->
                                 <p class="mt-2">¿Quieres lanzar tu idea de negocio y convertila en un negocio rentable?</p>
                                 <button class="btn boton2 btn-sm">
-                                    <a class="white-text" href="../[array]/?:=servicios-array">Saber más</a>
+                                    <a class="white-text" href="./?:=servicios-array">Saber más</a>
                                     <i class="fas fa-angle-right"></i>
                                 </button>
                             </div>
@@ -75,7 +75,7 @@
                                 <!--Text-->
                                 <p class="mt-2">¿Quieres lanzar tu idea de negocio y convertila en un negocio rentable?</p>
                                 <button class="btn boton2 btn-sm">
-                                    <a class="white-text" href="../[array]/?:=servicios-array">Saber más</a>
+                                    <a class="white-text" href="./?:=servicios-array">Saber más</a>
                                     <i class="fas fa-angle-right"></i>
                                 </button>
                             </div>
@@ -98,7 +98,7 @@
                                 <!--Text-->
                                 <p class="mt-2">¿Quieres lanzar tu idea de negocio y convertila en un negocio rentable?</p>
                                 <button class="btn boton2 btn-sm">
-                                    <a class="white-text" href="../[array]/?:=servicios-array">Saber más</a>
+                                    <a class="white-text" href="./?:=servicios-array">Saber más</a>
                                     <i class="fas fa-angle-right"></i>
                                 </button>
                             </div>

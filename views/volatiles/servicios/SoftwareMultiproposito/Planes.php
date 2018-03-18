@@ -22,7 +22,7 @@ foreach ($PlanPremium as $pp) {
                         <div class="col-12 col-sm-6 col-md-4 mt-5 mb-2">
                             <div align="center">
                                 <div class="card" >
-                                    <a href="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-escritorio">
+                                    <a href="./?servicios=Sofware-Multipropósito&solicitud=plan-escritorio">
                                         
                                         <div class="card-header stylish-color white-text">
                                         <!--h4>PLAN BASICO</h4-->
@@ -60,7 +60,7 @@ foreach ($PlanPremium as $pp) {
                                             
 
                                             <div class="card-footer text-center">
-                                                <a href="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-escritorio"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                                <a href="./?servicios=Sofware-Multipropósito&solicitud=plan-escritorio"><button class="btn boton-c btn-lg">Solicitar</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -70,7 +70,7 @@ foreach ($PlanPremium as $pp) {
                         <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
                             <div align="center">
                                 <div class="card">
-                                    <a href="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-web">
+                                    <a href="./?servicios=Sofware-Multipropósito&solicitud=plan-web">
                                         <div class="card-header primary-color white-text">
                                         <!--h4>PLAN MEDIUM</h4-->
                                         <hr>
@@ -118,7 +118,7 @@ foreach ($PlanPremium as $pp) {
 
                                     </div>
                                      <div class="card-footer text-center">
-                                                <a href="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-web"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                                <a href="./?servicios=Sofware-Multipropósito&solicitud=plan-web"><button class="btn boton-c btn-lg">Solicitar</button></a>
                                      </div>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@ foreach ($PlanPremium as $pp) {
                         <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
                             <div align="center">
                                 <div class="card">
-                                    <a href="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-moviles">
+                                    <a href="./?servicios=Sofware-Multipropósito&solicitud=plan-moviles">
                                         <div class="card-header stylish-color white-text">
                                         <!--h4>PLAN PREMIUM</h4-->
                                         <hr>
@@ -166,7 +166,7 @@ foreach ($PlanPremium as $pp) {
 
                                     </div>
                                     <div class="card-footer text-center" >
-                                                <a href="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-moviles"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                                <a href="./?servicios=Sofware-Multipropósito&solicitud=plan-moviles"><button class="btn boton-c btn-lg">Solicitar</button></a>
                                     </div>
                                 </div>
                             </div>

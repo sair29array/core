@@ -212,7 +212,7 @@ else
 
 
 		if (isset($_SESSION["user_log"])) {
-			?> <script>window.location = "../[array]/?servicios=DiseñoGráficoCorporativo&solicitud=<?php echo $solicitud; ?>";</script> <?php 
+			?> <script>window.location = "./?servicios=DiseñoGráficoCorporativo&solicitud=<?php echo $solicitud; ?>";</script> <?php 
 			//header("location: ../[array]/?servicios=DiseñoGráficoCorporativo&solicitud=1");
 			
 		}else

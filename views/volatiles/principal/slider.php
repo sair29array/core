@@ -14,10 +14,10 @@
                             <?php if (!isset($_SESSION['user_log'])) {
                                 ?>
                                 <div class="d-block d-sm-block d-md-none">
-                                <a href="../[array]/?:=iniciar-sesion"   role="button" class="btn boton-c btn-md">Iniciar sesión
+                                <a href="./?:=iniciar-sesion"   role="button" class="btn boton-c btn-md">Iniciar sesión
                                     <i class="fas fa-angle-right"></i>
                                 </a>
-                                <a href="../[array]/?:=crear-cuenta"   role="button" class="btn boton-c btn-md">Crear cuenta
+                                <a href="./?:=crear-cuenta"   role="button" class="btn boton-c btn-md">Crear cuenta
                                     <i class="fas fa-angle-right"></i>
                                 </a>
                             </div>
@@ -49,10 +49,10 @@
                                 <?php if (!isset($_SESSION['user_log'])) {
                                 ?>
                                 <div class="mt-0">
-                                    <a href="../[array]/?:=iniciar-sesion"  role="button" class="btn boton-c btn-lg">Iniciar sesión
+                                    <a href="./?:=iniciar-sesion"  role="button" class="btn boton-c btn-lg">Iniciar sesión
                                         <i class="fas fa-angle-right"></i>
                                     </a>
-                                    <a href="../[array]/?:=crear-cuenta"  role="button" class="btn boton-c btn-lg">Crear cuenta
+                                    <a href="./?:=crear-cuenta"  role="button" class="btn boton-c btn-lg">Crear cuenta
                                         <i class="fas fa-angle-right"></i>
                                     </a>
                                 </div>

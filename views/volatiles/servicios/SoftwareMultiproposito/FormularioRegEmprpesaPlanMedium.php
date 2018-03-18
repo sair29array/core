@@ -97,7 +97,7 @@
         ///////////////////////
  		$sair->registrar_solicitud_contrato($id_user,"software_multiproposito",$id_plan,$facturacion_empresa);
 
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-web&Reg-empresa&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=Sofware-Multipropósito&solicitud=plan-web&Reg-empresa&solicitud-enviada"</script> <?php 
  	}
 
 
@@ -122,7 +122,7 @@
  		$id_plan = 2 ; // quiere decir que es el plan numero 2 dentro de la db osea el medium 	
  		$facturacion_empresa = 0; 
  		$sair->registrar_solicitud_contrato($id_user,"software_multiproposito",$id_plan,$facturacion_empresa);
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-web&Reg-empresa&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=Sofware-Multipropósito&solicitud=plan-web&Reg-empresa&solicitud-enviada"</script> <?php 
  	}
 
  	if (isset($_POST["continuar_contrato2si"])) 
@@ -144,7 +144,7 @@
 $id_plan = 2 ; // quiere decir que es el plan numero 2 dentro de la db osea el medium 
  		$facturacion_empresa = 1;
  		$sair->registrar_solicitud_contrato($id_user,"software_multiproposito",$id_plan,$facturacion_empresa);
- 		?> <script type="text/javascript">window.location="../[array]/?servicios=Sofware-Multipropósito&solicitud=plan-web&Reg-empresa&solicitud-enviada"</script> <?php 
+ 		?> <script type="text/javascript">window.location="./?servicios=Sofware-Multipropósito&solicitud=plan-web&Reg-empresa&solicitud-enviada"</script> <?php 
  	}
 
 
