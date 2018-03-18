@@ -52,6 +52,34 @@
         $consult = mysqli_query($conn, "SELECT * FROM usuarios ");
         return mysqli_fetch_all($consult, MYSQLI_ASSOC);
      	}
+
+/////////////////////////////////////////////////////////////////////
+        /////// Si al user se le olvida la pass /////////////
+        public function RecordarPassUser_enviarPorCorreo($email)
+        {
+             include("conexion.php");
+            $consult_ = mysqli_query($conn, "SELECT * FROM usuarios WHERE email = $email ");
+            return mysqli_fetch_all($consult_, MYSQLI_ASSOC);
+            $userencontrado = 0;
+            foreach ($consult_ as $user) 
+            {
+                $pass =  $user["pass"];
+                $username = $user["nombres"]. " " . $user["apellidos"];
+                $userencontrado = $userencontrado +1; // cuenta el numero de usuarios asociados a esa direccion de correo electronico
+            }
+
+            if ($userencontrado !== 0) // si encontró a un usuario con ese correo
+            { 
+                 $destino = $email;
+
+                 $titulo = "ARRAY | RECORDATORIO DE CONTRASEÑA ";
+
+                 $contenido = "Estimado(a) " . $username. " Su contraseña de ARRAY es: ". $pass;
+ 
+                    mail($destino,$titulo,$contenido);
+            }
+           
+        }
      	
      	
      	public function consulta_datos_user_log($user) // es para saber los datos del usuario 

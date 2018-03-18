@@ -57,15 +57,21 @@ switch (@$_GET[":"])
         break;
     case "productos-array":
        $title ="Array | Productos ";
+       $description = "En array ponemos nuestros productos a tu disposición, para que lleves contigo Equipos de computo y muebles para tu empresa.
+ Sofware exclusivo de ArrayDev.
+ Repuestos y accesorios para computadoras";
+       $keywords = "Repuestos y accesorios para computadoras, Software para empresa, venta de Computadoras y accesorios";
         break;
     case "Portafolio-array":
-       $title ="Array | Portafolio ";
+       $title ="Array | Portafolio de proyectos ";
+       $description = "En array nos da gusto poder presentarte nuestro portafolio de proyectos exitosos, mediante el cual ponemos a tu disposición nuestra experiencia.";
+       $keywords = "templates para páginas web, array paginas, proyectos finalizados array, trabajos de array";
         break;
-    case "contactos":
-       $title ="Array | Contactos";
-        break;
+   
     case "MiCuenta":
        $title = $name_user." ".$apellidos_user." | Array";
+       $description = "Mira tu actividad con nosotros, descarga tus facturas, descarga software exclusivo de arrayDev";
+       $keywords = "Iniciar sesión array, mi cuenta en array, array facturas, descargar factura, cuanto debo en array";
         break;
  
 }
@@ -83,6 +89,12 @@ switch ($_GET["servicios"])
         break;
     case 'DiseñoGráficoCorporativo':
         $title ="Array | Diseño Gráfico Multipropósito";
+        break;
+    case 'ProdComerciales':
+        $title ="Array | Producción de comerciales para radio, tv e internet";
+        break;
+    case 'MantSoporteTécnico':
+        $title ="Array | Mantenimiento y soporte técnico para empresas";
         break;
     
 }
@@ -104,7 +116,7 @@ switch ($_GET["servicios"])
 <head>
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="691814b4-a7c8-44d9-8986-8c39ff2ebf52";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
      <meta name="description" content="<?php echo $description; ?>">
@@ -210,7 +222,12 @@ switch ($_GET["servicios"])
         include("views/volatiles/servicios/SoftwareMultiproposito/softwareMultipropositoIndex.php");
         }else if ($_GET['servicios']=="DiseñoGráficoCorporativo") {
         include("views/volatiles/servicios/DisenoGraficoCorporativo/DisenoGraficocIndex.php");
+        }else if ($_GET['servicios']=="ProdComerciales") {
+        include("views/volatiles/servicios/ProdComerciales/PcomercialesIndex.php");
+        }else if ($_GET['servicios']=="MantSoporteTécnico") {
+        include("views/volatiles/servicios/SoporteTecnico/ManSuportIndex.php");
         }
+
         ?>    
     </main>
     <?php 

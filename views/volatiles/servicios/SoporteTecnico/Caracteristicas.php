@@ -1,31 +1,5 @@
 <?php  ?>
-<br><br>
-    <section class="portafolio mt-5 ">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 mb-4 wow zoomIn" data-wow-delay="0.4s">
-                    <h1 class="h1-responsive text-center m-0 text-uppercase divider-new mt-3">Política de Privacidad y Tratamiento de los Datos Personales </h1>
-                    <p style="text-align: justify;">Su privacidad y confianza son muy importantes para nosotros. Por ello, queremos asegurarnos que conozca cómo salvaguardamos la integridad, confidencialidad y disponibilidad, de sus datos personales, en apego a la legislación colombiana.
-
-En cumplimiento al Artículo 10 del Decreto 1377 de 2013, solicitamos su autorización para continuar con el tratamiento de sus datos personales con el fin de recolectar, recaudar, almacenar, usar, circular, suprimir, procesar, compilar, intercambiar, dar tratamiento, actualizar, disponer de los datos personales que usted nos ha suministrado y que han sido incorporados en las bases de datos con las que cuenta ARRAY. Así mismo usted podrá ejercer los derechos de conocer, actualizar,  rectificar, suprimir, solicitar prueba de la autorización, ser informado del uso de sus datos personales, presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a los dispuesto en la presente ley y las demás normas que la modifiquen, adicionen o complementen, para cualquier inquietud al respecto ponemos a su disposición el correo electrónico contacto@array.com.co o sientase cómodo hablando con "Sair", el cual es un chat que encuentra en la parte inferior de este sitio, donde podrá éxponer sus inquietudes e interactuar con nuestros asesores de manera Sincrónica.
-<br><br>
-Este documento contempla nuestra política de protección y tratamiento de los datos personales la cual tiene como fin informar cuáles datos son capturados en la prestación de nuestros servicios y productos y para cuales finalidades, cuando la compartimos, como la usamos y protegemos, como también los derechos que le asisten a los titulares de los datos personales y como ejercerlos.
-
-La información y/o datos personales que recolectamos de usted que es nuestro cliente, son los siguientes:</p>
-                </div>
-            </div>
-            <!-- Cuerpo -->
-            <div class="row justify-content-between wow fadeInUp" data-wow-delay="0.4s">
-                
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
-
-
-
-    <section class="m-trabajo">
+<section class="m-trabajo">
             <div class="container">
                 <div class="row">
                     
@@ -153,5 +127,3 @@ La información y/o datos personales que recolectamos de usted que es nuestro cl
                 </div>
             </div>
         </section>
-
-

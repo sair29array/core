@@ -53,7 +53,7 @@
                     <div class="tarjeta">
                         <div class="adelante text-center">
                             <i class="fa fa-cube fa-4x blue-text mb-5"></i>
-                            <h3 class="black-text">Diseño gráfico corporativo</h3>
+                            <h4 class="black-text">Diseño gráfico corporativo</h4>
                         </div>
                         <div class="atras text-center">
                             <h4> <strong>Diseño gráfico corporativo</strong></h4>
@@ -67,13 +67,13 @@
                     <div class="tarjeta">
                         <div class="adelante text-center">
                             <i class="fa fa-play fa-4x blue-text mb-5"></i>
-                            <h3 class="black-text">Comerciales para Radio y TV</h3>
+                            <h4 class="black-text">Producción de comerciales para radio,TV e internet</h4>
                         </div>
                         <div class="atras text-center">
-                            <h4> <strong>Comerciales para Radio y TV</strong></h4>
+                            <h4> <strong>Producción de comerciales para radio,TV e internet</strong></h4>
                             <p >Comerciales en formato .mp3 y videos institucionales HD que se adaptan a los propósitos de su empresa.
                             </p>
-                            <a class="boton3 btn btn-md" href="./?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=ProdComerciales">CONTRATAR</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                             <h4> <strong>Mantenimiento y soporte</strong></h4>
                             <p class="m-3">Mantenimiento & Reparación de sistemas informáticos, computadoras, redes locales. Asesoria y capacitación.
                             </p>
-                            <a class="boton3 btn btn-md" href="./?servicios=Diseño_De_Paginas_web">CONTRATAR</a>
+                            <a class="boton3 btn btn-md" href="./?servicios=MantSoporteTécnico">CONTRATAR</a>
                         </div>
                     </div>
                 </div>

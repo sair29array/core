@@ -11,7 +11,7 @@ if ( isset($_GET['user'])) {
     <?php 
 }
  ?>
-    <section class="iniciar-sesion mt-5">
+    <section class="iniciar-sesion mt-5 ">
         <div class="container">
         <div class="row">
             <div class="col-12 text-center mt-2 wow zoomIn" data-wow-delay="0.4s">
