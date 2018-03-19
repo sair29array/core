@@ -11,10 +11,10 @@ if ( isset($_GET['user'])) {
     <?php 
 }
  ?>
-    <section class="iniciar-sesion mt-5 ">
+    <section class="crear-cuenta">
         <div class="container">
         <div class="row">
-            <div class="col-12 text-center mt-2 wow zoomIn" data-wow-delay="0.4s">
+            <div class="col-12 text-center mt-5 mb-3 wow zoomIn" data-wow-delay="0.4s">
                 <h6 class="h1-responsive mb-0"><strong>¿Aun no tienes una cuenta?</strong></h6>
                 <p class="mt-0"> Registrate y tendras  grandes privilegios, mejores servicios y una mejor atención. </p>
             </div>

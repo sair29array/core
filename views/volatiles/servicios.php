@@ -114,7 +114,7 @@
                 <div class="col-12 col-sm-6 col-md-6 lineas text-center">
                    <h1 class="h1-responsive mt-5 ml-4 mb-0 blue-text text-uppercase  wow fadeInLeft" data-wow-delay="0.3s"><strong>Lineas de acción</strong></h1>
                    <h3 class="mt-0 ml-4 mb-4 white-text wow fadeInLeft" data-wow-delay="0.4s">Correspondientes a nuestros servicios.</h3>
-                   <!-- <img class="img img-fluid mb-0" src="img/grafico.png" alt="grafico-crecimiento"> -->
+                   <img class="img img-fluid mb-0 img-grafico wow fadeInLeft" data-wow-delay="0.5s" src="img/grafico-up.png" alt="grafico-crecimiento">
                </div>
                <div class="col-12 col-sm-6 col-md-6 lineas-items white-text">
                    <div class="m-5 wow fadeInUp" data-wow-delay="0.3s">

@@ -387,6 +387,25 @@
         }
 
 
+        // Actualiza los datos desde el servicio Soporte tecnico - 
+        public function ActualizarDatosParaSolicitudDelServicioSoporteTecnico($id_user,$nombres,$apellidos,$cedula,$celular,$ubicacion,$servicio,$plan)
+        {
+            include("conexion.php");
+            
+                $consult = mysqli_query($conn, "UPDATE usuarios SET nombres = '$nombres', apellidos = '$apellidos' ,  celular = '$celular', departamento_ciudad = '$ubicacion'  WHERE id = '$id_user' ");
+        
+            
+            ?>
+            <script type="text/javascript">
+                window.location="./?servicios=MantSoporteTécnico&reg_empresa";
+            </script>
+            <?php 
+
+            return $consult;
+            
+        }
+
+
 
 
 

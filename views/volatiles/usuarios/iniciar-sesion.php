@@ -12,11 +12,10 @@ if ( isset($_GET['user'])) {
    
 }
  ?>
-
     <section class="iniciar-sesion">
     	<div class="container">
     	<div class="row">
-    		<div class="col-12 text-center mt-3 wow zoomIn" data-wow-delay="0.4s">
+    		<div class="col-12 text-center mt-5 wow zoomIn" data-wow-delay="0.4s">
 	    		<h6 class="h1-responsive mb-0"><strong>¿Ya tienes una cuenta?</strong></h6>
 	    		<p class="mt-0 mb-5">Inicia sesión para obtener grandes privilegios, mejores servicios y una mejor atención. </p>
     		</div>
