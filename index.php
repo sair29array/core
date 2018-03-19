@@ -4,7 +4,8 @@ session_start();
 include("config/process.php");
 $sair = new process();
 
-if (isset($_SESSION['user_log'])) {
+if (isset($_SESSION['user_log'])) 
+{
 
     $user = $_SESSION['user_log']; // email del user
     // consulta de datos del user:
@@ -17,8 +18,11 @@ if (isset($_SESSION['user_log'])) {
        $apellidos_user = $user_['apellidos'];
        
    }
+
 }
  
+//////////////Mensaje de bienvenida - cuando el user inicia sesión //////////////
+
 //////////////////////////////////////
 /////////////////////////////////////
 /////////////////////////////////////
@@ -159,6 +163,9 @@ switch ($_GET["servicios"])
 
 <body>
    
+   <?php 
+   ////////////////////////
+    ?>
     <!--loader page -->
     <div id="contenedor">
         <div id="cargar"></div>
