@@ -6,8 +6,16 @@
                     </h2>
                    
                 </div>
+                <?php if (isset($_SESSION["user_log"])){  
+                	if (!isset($_GET["solicitud-enviada"])) { 
+                	?>
                 <div  class="col-12 col-md-3 mt-5 mb-0">
-                	<?php if (!isset($_GET["datos"])) { // form de datos del user
+                <?php } } ?>
+
+                
+                	<?php if (!isset($_GET["datos"]) ) 
+                	{ // form de datos del user
+                		if (!isset($_GET["reg_empresa"]) ) {
                 		?> 
                 	
                 	<a href="./?servicios=MantSoporteTécnico&datos">
@@ -17,15 +25,46 @@
                     </button>
                     </a>
 
-                    <?php }else{
+                    <?php }else{ // si el usuario llegó a el form de empresa
+
+                    		   if (!isset($_GET["solicitud-enviada"])) 
+                    		   {
+                    			if ($user_["empresa"] !== "") 
+                    			{ // si existe una empresa
+                    				?>
+                    				<button type="submit" name="continuarsi" class="btn boton-c btn-lg mb-5">
+                       		 		Si
+                            		<i class="fa fa-caret-right"></i>
+                    				</button>
+                    				<button type="submit" name="continuarno" class="btn boton-c btn-lg mb-5">
+                       		 		No
+                            		<i class="fa fa-caret-right"></i>
+                    				</button>
+                    				<?php 
+                    			}else{ 
+                    			?>
+                    			
+                        		<button type="submit" name="reg_empresa" class="btn boton-c btn-lg mb-5">
+                       		 	Continuar
+                            	<i class="fa fa-caret-right"></i>
+                    			</button>
+                    			
+                    			<?php 
+                    		    }
+                    		  }
+                    		}
+
+                     }else{
+                    	if (isset($_SESSION["user_log"])){ 
                     	?>
-                    	<a href="./?servicios=MantSoporteTécnico&datos">
-                        <button type="submit" name="solicitar_servicio" class="btn boton-c btn-lg mb-5">
+                    	
+                        <button type="submit" name="actualizadatos" class="btn boton-c btn-lg mb-5">
                         Continuar
                             <i class="fa fa-caret-right"></i>
                     </button>
-                    </a>
+                    
                     	<?php 
+                      }
                     }  ?>
 
                 </div>
@@ -33,7 +72,9 @@
 
 
 <?php if (isset($_GET["datos"])) 
-{
+{ 
+	if (isset($_SESSION["user_log"])) {
+	
 	$email = $user_['email'];
         $datos_user = $sair->verificarSiLosDatosEstanCompletos($email);// verifica si los datos del user se encuentran completos
 
@@ -43,7 +84,21 @@
 		{
 			?><p class="banner-txt text-center">Anteriormente actualizaste tus datos, sino deseas actualizar tu información, solo da un clic en continuar. </p> <?php
 		}
-} ?>
+
+
+	}
+}
+if (isset($_GET["reg_empresa"]) && !isset($_GET["solicitud-enviada"])) 
+{
+	if ($user_["empresa"] == "") 
+		{
+			?><p class="banner-txt text-center">¿El servicio que estás a punto de solicitar es para tu empresa? ¡Es el momento de registrarla! </p> <?php
+		}else{
+			?><p class="banner-txt text-center">¿El servicio que estás a punto de solicitar es para tu empresa?</p> <?php
+		}
+}
+
+ ?>
 <hr class="">
                     
                

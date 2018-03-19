@@ -124,7 +124,7 @@
  </form> <!-- El formulario termina aqui y empieza en tituloplanbasico.php -->
 
  <?php 
- 	if (isset($_POST["continuar_contrato"])) 
+ 	if (isset($_POST["actualizadatos"])) 
  	{
 
  		$nombres = $_POST["nombres"];
@@ -135,7 +135,7 @@
  		$ubicacion = $_POST["ubicacion"];
  		$id_user = $user_["id"];
 
- 		$sair->ActualizarDatosParaSolicitudDelServicioSoporteTecnico($id_user,$nombres,$apellidos,$cedula,$celular,$ubicacion,"Diseño_De_Paginas_web","plan-básico");
+ 		$sair->ActualizarDatosParaSolicitudDelServicioSoporteTecnico($id_user,$nombres,$apellidos,$cedula,$celular,$ubicacion,"mantenimiento_soporte_tecnico","");
  	}
   
   ?>

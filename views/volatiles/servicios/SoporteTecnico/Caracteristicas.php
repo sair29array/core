@@ -1,6 +1,8 @@
 <?php 
 	if (!isset($_GET["datos"])) 
 	{
+		if (!isset($_GET["reg_empresa"])) {
+
 ?> 
 <section class="m-trabajo">
             <div class="container">
@@ -67,7 +69,16 @@
       <br>  
 
 
-<?php 		
+<?php 	
+		} // sierre de - si no existe : reg_empresa
+		else{
+				if (isset($_SESSION["user_log"])) 
+  			{
+  				include("formulario_reg_empresa.php");
+  			}else{
+  				include("NoHasIniciadoSesion.php");
+  			}
+		}	
 	}else{
 		
 		if (isset($_SESSION["user_log"])) 
