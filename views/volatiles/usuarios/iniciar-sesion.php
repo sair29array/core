@@ -4,7 +4,7 @@ if ( isset($_GET['user'])) {
     $u = $_GET["user"];
     $_SESSION['user_log']=$u;
     
-    ?><script>window.location="./?hello" ; </script>
+    ?><script>window.location="./" ; </script>
     <?php 
    
 }
@@ -130,7 +130,7 @@ if ( isset($_GET['user'])) {
                   <p>Por favor ingresa tu dirección de correo electrónico para ayudarte.</p>
                    		<div class="md-form">
 			                
-			                <input  type="email" name="email_" id="materialFormCardEmailEx" class="form-control">
+			                <input required="true"  type="email" name="email_" id="materialFormCardEmailEx" class="form-control">
 			                
 			            </div>
               </div>

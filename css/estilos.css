@@ -10,8 +10,10 @@ main {
 
 /*estilos nav-header*/
 .view {
-  background: url("../img/banner-1.png") no-repeat center fixed;
+  
   background-size: cover; }
+
+
 
 .navbar {
   background-color: #1e1f20;

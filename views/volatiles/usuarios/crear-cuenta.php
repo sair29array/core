@@ -5,9 +5,7 @@ if ( isset($_GET['user'])) {
     $_SESSION['user_log']=$u;
     
     ?>
-    <script type="text/javascript">
-        alertify.alert('Ahora eres parte de ARRAY', '', function(){ window.location="./" ; }).set({transition:'flipy',message: '¡Comencemos a trabajar!'}).show();
-    </script>
+    <script>window.location="./" ; </script>
     <?php 
 }
  ?>

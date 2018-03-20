@@ -1,15 +1,40 @@
 <?php  ?>
 <!-- Intro Section -->
-        <div class="view">
+        <div class="view" <?php if (!isset($_SESSION["user_log"])) {
+            ?> style="background: url('img/banner-4.jpg') no-repeat center fixed;" <?php 
+        }else{
+            if ($user_["dealta"] == 0) {
+                ?> style="background: url('img/banner-2.jpg') no-repeat center fixed;" <?php 
+            }else{
+                ?> style="background: url('img/banner-1.png') no-repeat center fixed;" <?php
+            }
+        } ?>  >
             <div class="full-bg-img">
                 <div class="container flex-center">
                     <div class="col-md-12 white-text text-center welcome">
                         <div class="wow wow fadeInDown" data-wow-delay="0.2s">
                             <h1 class="h1-responsive title-view-mobile d-block d-sm-block d-md-none ">
-                                <strong>BIENVENIDO A ARRAY</strong>
+                                <?php if (!$_SESSION["user_log"]) {
+                                    ?> <strong>BIENVENIDO A ARRAY</strong> <?php 
+                                }else{
+                                    if ($user_["dealta"] == 0) {
+                                       ?> <strong>Ahora eres parte de array</strong><p>Activa tu cuenta con el link que hemos enviado a tu correo.</p> <?php 
+                                    }else{
+                                        ?> <strong>Hola, Bienvenid@</strong> <?php
+                                    }
+                                } ?>
+                                
                             </h1>
                             <h1 class="h1-responsive title-view-desktop d-none d-md-block mt-5">
-                                <strong>BIENVENIDO A ARRAY</strong>
+                                 <?php if (!$_SESSION["user_log"]) {
+                                    ?> <strong>BIENVENIDO A ARRAY</strong> <?php 
+                                }else{
+                                    if ($user_["dealta"] == 0) {
+                                       ?> <strong>Ahora eres parte de array</strong> <?php 
+                                    }else{
+                                        ?> <strong>Hola, Bienvenid@</strong> <?php
+                                    }
+                                } ?>
                             </h1>
                             <?php if (!isset($_SESSION['user_log'])) {
                                 ?>
@@ -35,6 +60,7 @@
                                 </div>
                                 <?php 
                                 }else{
+                                    if ($user_["dealta"] == 1 ) {
                                     ?>
                                     <div class="mt-auto mb-0 slider">
                                     <h3 class="t-s">Es estupendo
@@ -44,7 +70,20 @@
                                     <h3>Te ayudamos a crecer como empresa.</h3>
                                 </div>
                                     <?php 
-                                } ?>
+                                    }else{
+                                            ?>
+                                            <div class="mt-auto mb-0 slider">
+                                    <h3 class="t-s">Visita tu 
+                                        <strong>Correo </strong> electónico</h3>
+                                    <h3><?php echo $user_["email"] ; ?></h3>
+                                    
+                                    <h3>Te hemos enviado un link para activar tu cuenta</h3>
+                                </div>
+                                            <?php 
+                                    }
+                                } 
+
+                                ?>
 
                                 <?php if (!isset($_SESSION['user_log'])) {
                                 ?>

@@ -163,9 +163,7 @@ switch ($_GET["servicios"])
 
 <body>
    
-   <?php 
-   ////////////////////////
-    ?>
+
     <!--loader page -->
     <div id="contenedor">
         <div id="cargar"></div>
