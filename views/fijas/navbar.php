@@ -1,6 +1,11 @@
 <?php  ?>
 <!--Navbar-->
-        <nav class="navbar fixed-top navbar-expand-lg  scrolling-navbar">
+<?php if (!isset($_GET[":"]) && !isset($_GET["activate"]) && !isset($_GET["servicios"])) {
+   ?>  <nav style="background-color: #1e1f206b;" class="navbar fixed-top navbar-expand-lg  scrolling-navbar"><?php 
+}else{
+    ?>  <nav style="background-color: #1e1f20;" class="navbar fixed-top navbar-expand-lg  scrolling-navbar"> <?php 
+} ?>
+       
             <div class="container">
             
                     <a href="./"><img class="img img-responsive img-logo" src="img/logo-nombre.png" alt="logo-name"><span class="text-white title-logo">ARRAY</span></a>

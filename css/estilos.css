@@ -16,7 +16,7 @@ main {
 
 
 .navbar {
-  background-color: #1e1f20;
+  /*El backgraun color está en la propia página de nav*/
   font-size: 18px;
   text-transform: uppercase; }
 

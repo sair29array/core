@@ -50,9 +50,10 @@
                 
                 $contenido = '<html>'.
                 '<head><title>Te damos la bienvenida a ARRAY | abre el siguiente enlace para activar tu cuenta.</title></head>'.
-                '<body><h5> Usuario: '.$username.'</h5> <br>'.
-                '<body><h5>'.$link_activacion_dealta.'</h5>'.
-                'Tu contraseña es: ' .$pass.' '.
+                '<body><h3> Te damos la bienvenida a ARRAY | abre el siguiente enlace para activar tu cuenta.</h3> <br>'.
+                '<body><h3> Usuario: '.$username.'</h3> <br>'.
+                '<body><h3>'.$link_activacion_dealta.'</h3>'.
+                
                 '<hr>'.
                 'Array | Expertos en TIC | www.array.com.co'.
                 '</body>'.
@@ -64,6 +65,20 @@
 		 
 		return $consulta;
 		}
+
+        public function ActivarDardeAltaAuser($email)
+        {
+            include("conexion.php");
+          
+                $consult = mysqli_query($conn, "UPDATE usuarios SET dealta = 1  WHERE email = '$email' ");
+            
+            ?>
+            <script type="text/javascript">
+                window.location="./";
+            </script>
+            <?php 
+            return $consult;
+        }
 
 		public function GetDatosUsuariosRegistrados() // sacamos todos los datos que se encuentran registrados y asociados a nuestros usuarios
      	{
