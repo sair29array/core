@@ -8,30 +8,44 @@
                     <hr class="">
                     <p class="mb-5">En array nos da gusto poder presentarte nuestro portafolio de proyectos exitosos, mediante el cual ponemos a tu disposición nuestra experiencia.</p>
                 </div>
-              <div class="row justify-content-between wow fadeInUp" data-wow-delay="0.4s">
-                <div class="col-12 col-md-4">
+              <div class="row content-between wow fadeInUp mt-3" data-wow-delay="0.4s">
+
+
+
+
+
+                <div class="col-12 col-md-3">
                             <center>
-                                <a href="./?:=Portafolio-array&categoria=DesarrolloWeb"><span><strong style="color: #2196f3;" >Desarrollo de recursos (Apps Web)</strong></span></a>
-                            <?php if ($_GET["categoria"]=="DesarrolloWeb") {
-                                ?><hr class="blue col-10 mt-2"><?php 
-                            } ?>
+                                <a href="./?:=Portafolio-array&categoria=DesarrolloWeb" class="btn btn-primary <?php if ($_GET["categoria"]=="DesarrolloWeb") {
+                                ?> active <?php 
+                            } ?>">Desarrollo de recursos</a>
+                            
                             </center>
                 </div>
-                 <div class="col-12 col-md-4">
+                <div class="col-12 col-md-3">
                             <center>
-                                <a href="./?:=Portafolio-array&categoria=MedAudVisuales"><span><strong style="color: #2196f3;" >Medios audiovisuales</strong></span></a>
-                            <?php if ($_GET["categoria"]=="MedAudVisuales") {
-                                ?><hr class="blue col-10 mt-2"><?php 
-                            } ?>
+                                <a href="./?:=Portafolio-array&categoria=Edu" class="btn btn-primary <?php if ($_GET["categoria"]=="Edu") {
+                                ?> active <?php 
+                            } ?>">Proyectos educativos</a>
+                            
                             </center>
                 </div>
-                 <div class="col-12 col-md-4">
+                 <div class="col-12 col-md-3">
                             <center>
-                                <a href="./?:=Portafolio-array&categoria=MantSoporteTecRyC"><span><strong style="color: #2196f3;" >Soporte técnico en redes y computadoras</strong></span></a>
-                            <?php if ($_GET["categoria"]=="MantSoporteTecRyC") {
-                                ?><hr class="blue col-10 mt-2"><?php 
-                            } ?>
+                                <a href="./?:=Portafolio-array&categoria=MedAudVisuales" class="btn btn-primary <?php if ($_GET["categoria"]=="MedAudVisuales") {
+                                ?> active <?php 
+                            } ?>">Medios audiovisuales</a>
+                            
                             </center>
+                </div>
+                 <div class="col-12 col-md-3">
+                            <center>
+                                <a href="./?:=Portafolio-array&categoria=MantSoporteTecRyC" class="btn btn-primary <?php if ($_GET["categoria"]=="MantSoporteTecRyC") {
+                                ?> active <?php 
+                            } ?>">Soporte técnico</a>
+                            
+                            </center>
+                          
                 </div>
                 
 
@@ -42,6 +56,8 @@
                         include("MedAudVisuales.php");
                     }else if ($_GET["categoria"]=="MantSoporteTecRyC") {
                         include("MantSoporteTecRyC.php");
+                    }else if ($_GET["categoria"]=="Edu") {
+                        include("Educ.php");
                     }
                  ?>
             </div>

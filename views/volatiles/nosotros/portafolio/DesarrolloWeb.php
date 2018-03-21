@@ -1,5 +1,7 @@
 <?php  ?>
- <div class="col-12 col-md-4">
+
+
+                <div class="col-12 col-md-4">
                     <div class="card text-center">
                         <div class="card-header libertad">
                         </div>
@@ -22,7 +24,7 @@
                         </div>
                         <div class="card-body">
                             <div class="card-title">
-                                <p class="text-uppercase">rentacards</p>
+                                <p class="text-uppercase">rentcards</p>
                             </div>
                            
                         </div>
@@ -155,6 +157,6 @@
                     </div>
                 </div>
 
-          
+</div>
                    
               

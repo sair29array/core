@@ -17,6 +17,7 @@ main {
 
 .navbar {
   /*El backgraun color está en la propia página de nav*/
+  
   font-size: 18px;
   text-transform: uppercase; }
 
@@ -584,6 +585,9 @@ footer a:hover {
 
 .hotel-klary {
   background: url("../img/hotel-klary.png"); }
+
+.danielydiego{
+  background: url("../img/repositorio1.png"); }
 
 /*titulo de cada card del portafolio*/
 .title-portafolio {
