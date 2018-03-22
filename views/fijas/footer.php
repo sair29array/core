@@ -4,26 +4,18 @@
         <!--Footer links-->
         <div class="container">
             <div class="row wow fadeInUp" data-wow-delay="0.5s">
-                <!--First column-->
-                <div class="col-md-3 col-lg-4 col-xl-3 mb-r">
-                    <h6 class="spacing font-bold">
-                        <strong>Array</strong>
-                    </h6>
-                    <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Somos una empresa colombiana cuyo objetivo principal es trabajar con TICs (Tecnologias de la Información y las Comunicaciones).
-                    </p>
-                </div>
-                <!--/.First column-->
+
 
                 <!--Second column-->
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-r">
                     <h6 class="spacing font-bold">
-                        <strong>Nosotros</strong>
+                        <strong>Compañia</strong>
                     </h6>
                     <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         <a href="./?:=quienes-somos">¿Quienes somos?</a>
                     </p>
+                    
                     <p>
                         <a href="./?:=servicios-array">Servicios</a>
                     </p>
@@ -31,7 +23,7 @@
                         <a href="./?:=productos-array">Productos</a>
                     </p>
                     <p>
-                        <a href="./?:=Portafolio-array&categoria=DesarrolloWeb">Portafolio</a>
+                        <a href="./?:=Portafolio-array&categoria=DesarrolloWeb">Proyectos</a>
                     </p>
                 </div>
                 <!--/.Second column-->
@@ -70,6 +62,17 @@
                     
                 </div>
                 <!--/.Fourth column-->
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-r">
+                    <h6 class="spacing font-bold">
+                        <strong>Marco legal</strong>
+                    </h6>
+                    <hr class="blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    
+                    <img class="img-fluid" src="img/ccce.png">
+
+                </div>
+                <!--/.First column-->
             </div>
         </div>
         <!--/.Footer links-->
