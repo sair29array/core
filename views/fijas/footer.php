@@ -40,9 +40,7 @@
                     <p>
                         <a href="#!">Condiciones y terminos de uso</a>
                     </p>
-                    <p>
-                        <a href="#!">Preguntas frecuentes</a>
-                    </p>
+                    
 
                 </div>
                 <!--/.Third column-->

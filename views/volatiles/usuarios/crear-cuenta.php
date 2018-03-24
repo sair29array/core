@@ -13,27 +13,31 @@ if ( isset($_GET['user'])) {
         <div class="container">
         <div class="row">
             <div class="col-12 text-center mt-5 mb-3 wow zoomIn" data-wow-delay="0.4s">
-                <h6 class="h1-responsive mb-0"><strong>¿Aun no tienes una cuenta?</strong></h6>
+                <h6 class="h5-responsive mb-0"><strong>¿Aun no tienes una cuenta?</strong></h6>
                 <p class="mt-0"> Registrate y tendras  grandes privilegios, mejores servicios y una mejor atención. </p>
             </div>
             <div class="col-12 col-sm-12 col-md-5 mt-3 mb-5 wow fadeInLeft text-center" data-wow-delay="0.4s">
-                <h1 class="h1-responsive text-center">Registrate con:</h1>
+                <h1 class="h5-responsive text-center">Registrate con:</h1>
                 <div class="mt-4">
-                <a href="#" role="button" class="btn btn-lg btn-primary waves-effect disabled"><i class="fab fa-facebook-f"></i> | registrate con Facebook</a>
-                <a href="#" role="button" class="btn btn-lg btn-danger waves-effect disabled "><i class="fab fa-google"></i> | registrarse con Google</a>
-                <a href="#" role="button" class="btn btn-lg btn-info waves-effect  disabled"><i class="fab fa-twitter"></i> | registrarse con Twitter</a>
+                <a href="#" role="button" class="btn btn-lg btn-primary waves-effect "><i class="fab fa-facebook-f"></i> | registrate con Facebook</a>
+                <a href="#" role="button" class="btn btn-lg btn-danger waves-effect  "><i class="fab fa-google"></i> | registrarse con Google</a>
+               
                 </div>
                 <div class="w-100"></div>
                 <p class="text-center">En array siempre pensamos en tu seguridad  y la de tus datos personales <i class="grey-text fas fa-lock"></i></p>
             </div>
+
+
             <div class="col-md-1 mr-5 d-none d-sm-none d-md-block d-lg-block">
                 <hr class="v wow zoomIn m-0" data-wow-delay="0.4s">
             </div>
+
+
             <div  class="col-12 col-md-5 mt-3 mb-5 wow fadeInRight" data-wow-delay="0.4s">
             <!-- tarjeta-->
             <div class="card" id="contenedor_">
                 <div class="card-header">
-                    <p class="h4 text-center">¡Registrate ahora!</p>
+                    <p class="h5 text-center">Registrate con tus datos</p>
                     <span   style="color: red;" >{{alert}}</span class="mostrar_alerta_login">
                                     <span   style="color: green;" >{{cargando}}</span class="mostrar_alerta_login">
                 </div>
@@ -78,7 +82,7 @@ if ( isset($_GET['user'])) {
 
                         <div class="text-center">
                             <!--pre>{{$data}}</pre-->
-                            <button v-on:click="enviar"  class="btn boton-c btn-lg" type="submit">Registrarse <i class="fas fa-sign-out-alt"></i></button>
+                            <button v-on:click="enviar"  class="btn boton-c btn-md" type="submit">Registrarse <i class="fas fa-sign-out-alt"></i></button>
                         </div>
                     
                     <!-- Material form register -->
