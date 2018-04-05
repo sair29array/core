@@ -8,22 +8,25 @@ if (isset($_GET['Reg-empresa'])) {
     }
 }
 	if (!isset($_SESSION["user_log"])) {
-
 		?>
-			<div class="row justify-content-center text-center">
-                <div class="col-12">
+			<div class="row justify-content-center text-center margen-superior">
+                <div class="col-12 margen-superior wow zoomIn" data-wow-delay="0.4s">
                     <h3 class="mt-5 mb-0">
                         <span><strong style="color: #1195ac;" >Plan Medium</strong> Diseño & desarrollo de páginas web</span>
                     </h3>
-                    <p class="banner-txt">¿Aún no eres usuario array?<br>
+                    <div>
+                        <p class="banner-txt mt-2">¿Aún no eres usuario array?<br>
 						para continuar con la solicitud debes iniciar sesión o crear una cuenta. </p>
 						<!-- La idea es que cuando el user nuevo no haya inicado session de clic en iniciar o crear cuenta .. y despues de haber inicado o creado la cuenta lo devuelva a donde estaba  -->
-                    <a href="./?:=iniciar-sesion&SolicitudDeServicio=Diseño_De_Paginas_web&solicitud=plan-medium">
-                        <button type="button" class="btn boton-c btn-lg mb-5">Iniciar sesión </button>
-					</a>
-					<a href="./?:=crear-cuenta&SolicitudDeServicio=Diseño_De_Paginas_web&solicitud=plan-medium">
-                   		 <button type="button" class="btn boton-c btn-lg mb-5">Crear Cuenta </button>
-                    </a>
+                    <div class="m-5">
+                        <a href="./?:=iniciar-sesion&SolicitudDeServicio=Diseño_De_Paginas_web&solicitud=plan-básico">
+                            <button type="button" class="btn boton-c btn-lg ">Iniciar sesión </button>
+                        </a>
+                        <a href="./?:=crear-cuenta&SolicitudDeServicio=Diseño_De_Paginas_web&solicitud=plan-básico">
+                            <button type="button" class="btn boton-c btn-lg ">Crear Cuenta </button>
+                        </a>
+                    </div>
+                    </div> 
                 </div>
             </div>
 		<?php 
@@ -33,7 +36,7 @@ if (isset($_GET['Reg-empresa'])) {
 		?>
     <form action="" method="POST">
 		<div class="row justify-content-center text-center">
-            <div class="col-12 col-md-9 " >
+            <div class="col-12 col-md-9 margen-superior wow zoomIn" data-wow-delay="0.4s" >
                 
                      <h3 class="mt-5 mb-0">
                         <span><strong style="color: #1195ac;" >Plan Medium</strong> Diseño & desarrollo de páginas web</span>
@@ -44,7 +47,7 @@ if (isset($_GET['Reg-empresa'])) {
                         $nit_empresa = $user_['nit_empresa'];
                         if ($datos_user == 1) {
                             ?>
-                            <p class="banner-txt">Anteriormente ingresaste tus datos, si no hay algo que actualizar, simplemente debes dar clic en "continuar".</p>
+                            <p class="banner-txt">Anteriormente ingresaste tus datos, si no hay algo que actualizar, simplemente debes dar clic en </p>
                             <?php 
                         }else{
                             ?> 
@@ -74,27 +77,27 @@ if (isset($_GET['Reg-empresa'])) {
             <?php  // lo que quiero con esto es cambiar el boton o el nombre del boton para seguir con el contrato del servicio -- Diseño de paginas web - plan básico
                 if (!isset($_GET["Reg-empresa"])) {
                     ?>
-                    <div class="col-12 col-md-3 " >
+                    <div class="col-12 col-md-2 margen-superior wow zoomIn" data-wow-delay="0.4s">
                     <h3 class="mt-5 mb-0"></h3>
-                     <button  type="submit" name="continuar_contrato" class="btn boton-c btn-lg mb-5">Continuar <i class="fa fa-caret-right"></i></button>
+                     <button  type="submit" name="continuar_contrato" class="btn boton-c btn-md mb-5">Continuar <i class="fa fa-caret-right"></i></button>
                     </div>
                     <?php 
                 }else{
                     if (!isset($_GET['solicitud-enviada'])) {
                     if ($user_['nit_empresa'] =="" AND $user_['empresa']== ""){ 
                     ?>
-                     <div class="col-12 col-md-3 " >
+                     <div class="col-12 col-md-2 margen-superior " >
                     <h3 class="mt-5 mb-0"></h3>
-                     <button  type="submit" name="continuar_contrato2" class="btn boton-c btn-lg mb-5">Continuar <i class="fa fa-caret-right"></i></button>
+                     <button  type="submit" name="continuar_contrato2" class="btn boton-c btn-md mb-5">Continuar <i class="fa fa-caret-right"></i></button>
                     </div>
                     <?php 
                     }else{
                         
                         ?>
-                     <div class="col-12 col-md-3 " >
+                     <div class="col-12 col-md-3 margen-superior wow zoomIn" data-wow-delay="0.4s">
                     <h3 class="mt-5 mb-0"></h3>
-                     <button  type="submit" name="continuar_contrato2si" class="btn boton-c btn-lg mb-5">Si <i class="fa fa-caret-right"></i></button>
-                      <button  type="submit" name="continuar_contrato2no" class="btn boton-c btn-lg mb-5">No <i class="fa fa-caret-right"></i></button>
+                     <button  type="submit" name="continuar_contrato2si" class="btn boton-c btn-md mb-5">Si <i class="fa fa-caret-right"></i></button>
+                      <button  type="submit" name="continuar_contrato2no" class="btn boton-c btn-md mb-5">No <i class="fa fa-caret-right"></i></button>
                     </div>
 
                     <?php 
@@ -104,7 +107,7 @@ if (isset($_GET['Reg-empresa'])) {
                 }
              ?>
             
-        <hr class="blue col-12 mt-0">
+        <hr class="blue col-12 mt-0 wow zoomIn" data-wow-delay="0.4s">
     </div>
 
 		<?php 

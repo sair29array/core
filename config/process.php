@@ -66,6 +66,16 @@
 		return $consulta;
 		}
 
+
+        // esta función se encuentra en PROCESS.PHP 
+        //sirve para decidir entre REGISTRAR AL USER QUE ACABA DE ACCEDER O SIMPLEMENTE LOGUEARLO ()
+        public function social_login_anality($email,$tockenGoogle,$nombre,$apellidos)
+        {
+            
+        }
+
+
+
         public function ActivarDardeAltaAuser($email)
         {
             include("conexion.php");

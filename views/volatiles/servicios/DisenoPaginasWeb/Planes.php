@@ -16,19 +16,19 @@ foreach ($PlanPremium as $pp) {
    $precio_plan_Premium = number_format($pp["precio"] );
 }
  ?>
-<div class="row planes justify-content-between " id="planes" >
+<div class="row planes justify-content-between barra-x-hidden" id="planes">
                 <div class="container mb-5">
                     <div class="row justify-content-center">
-                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-2">
+                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-2 wow zoomIn" data-wow-delay="0.4s">
                             <div align="center">
                                 <div class="card" >
                                     <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-básico">
                                         
                                         <div class="card-header stylish-color white-text">
-                                        <!--h4>PLAN BASICO</h4-->
+                                        <span class="h2-responsive mb-0" >PLAN BÁSICO</span>
                                         <hr>
                                         <p>
-                                            <span class="h2-responsive mb-0" >PLAN BÁSICO</span>
+                                            
                                             <!--span class="h1-responsive mb-0"><?php// echo "$".$precio_plan_basico; ?></span-->
                                             <h6 class="mt-0">Precio super Flexible. Perfecto para comercios que estan empezando y quieren probar la experiencia digital</h6>
                                         </p>
@@ -36,8 +36,6 @@ foreach ($PlanPremium as $pp) {
                                     </a>
                                     
                                     <div class="card-body">
-                                        
-                                       
                                         <div class="items-plan text-left" >
                                             <h5 class="p-0">
                                                 <i class="fa fa-check blue-text"></i> Alojamiento web (hosting)</h5>
@@ -75,25 +73,22 @@ foreach ($PlanPremium as $pp) {
                                             <p class="text-center">
                                                 <strong>Costos adicionales</strong> Hosting + dominio (Estabilidad en la web) cada
                                                 3 meses</p>
-
-                                            <div class="card-footer text-center">
-                                                <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-básico"><button class="btn boton-c btn-lg">Solicitar</button></a>
-                                            </div>
                                         </div>
                                     </div>
+                                    <div class="card-footer text-center">
+                                                <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-básico"><button class="btn boton-c btn-md">Solicitar</button></a>
+                                            </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
+                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5  wow zoomIn" data-wow-delay="0.4s">
                             <div align="center">
                                 <div class="card">
                                     <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-medium">
                                         <div class="card-header primary-color white-text">
-                                        <!--h4>PLAN MEDIUM</h4-->
+                                         <span class="h2-responsive mb-0">PLAN MEDIUM</span>
                                         <hr>
                                         <p>
-                                            <span class="h2-responsive mb-0">PLAN MEDIUM</span>
-                                            
                                             <!--span class="h1-responsive mb-0"><?php // echo "$".$precio_plan_medium; ?></span-->
                                             <h6 class="mt-0">Precio super Flexible. Perfecto para comenciartes medianos y grandes, podras administrar tu propio sitio. </h6>
                                         </p>
@@ -143,22 +138,23 @@ foreach ($PlanPremium as $pp) {
 
                                     </div>
                                      <div class="card-footer text-center">
-                                                <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-medium"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                        <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-medium"><button class="btn boton-c btn-md">Solicitar</button></a>
                                      </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
+                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5  wow zoomIn" data-wow-delay="0.4s">
                             <div align="center">
                                 <div class="card">
                                     <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium">
                                         <div class="card-header stylish-color white-text">
                                         <!--h4>PLAN PREMIUM</h4-->
+                                        <span class="h2-responsive m-0">PLAN PREMIUM</span>
                                         <hr>
                                         <p>
-                                            <span class="h2-responsive mb-0">PLAN PREMIUM</span>
+                                            
                                             <!--span class="h1-responsive mb-0"><?php// echo "$".$precio_plan_Premium; ?></span-->
-                                            <h6 class="mt-0">Precio super flexible. Perfecto para comencios medianos y grandes, administra tu propio sitio web y vende en linea tus productos.</h6>
+                                            <h6 class="mt-0">Perfecto para comencios medianos y grandes, administra tu propio sitio web y vende en linea tus productos.</h6>
                                         </p>
                                     </div>
                                     </a>
@@ -208,7 +204,7 @@ foreach ($PlanPremium as $pp) {
 
                                     </div>
                                     <div class="card-footer text-center" >
-                                                <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                                <a href="./?servicios=Diseño_De_Paginas_web&solicitud=plan-premium"><button class="btn boton-c btn-md">Solicitar</button></a>
                                     </div>
                                 </div>
                             </div>

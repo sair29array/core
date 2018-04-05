@@ -2,10 +2,10 @@
 <?php  ?>
 <?php if (!isset($_GET['solicitud-enviada'])) {
 	?> 
- <div class="container">
+ <div class="container barra-x-hidden">
     	<div class="row">
     		
-    		<div class="col-12 col-md-6 mt-3 mb-5 wow fadeInLeft" data-wow-delay="0.4s">
+    		<div class="col-12 col-md-6 mt-3 mb-5 wow fadeInLeft margen-superior" data-wow-delay="0.4s">
 	    		<!-- tarjeta-->
             <div class="card" >
                 <div class="card-header">

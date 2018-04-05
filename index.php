@@ -104,14 +104,7 @@ switch ($_GET["servicios"])
 }
 
 
-
-
-
 /////////////////////////////////////////
-//////////////////////////////////////////
-/////////////////////////////////////////
-
-
 
  ?>
 <!DOCTYPE html>
@@ -161,13 +154,13 @@ switch ($_GET["servicios"])
 
 </head>
 
-<body>
+<body class="barra-x-hidden">
    
 
     <!--loader page -->
-    <div id="contenedor">
+    <!--div id="contenedor">
         <div id="cargar"></div>
-    </div>
+    </div-->
     <!-- fin loader page -->
     <!--Boton de ir arriba-->
     <i class="ir-arriba fa fa-arrow-up fa-2x"></i>
@@ -186,7 +179,7 @@ switch ($_GET["servicios"])
          ?>
         
    
-    <main>
+    <main class="barra-x-hidden barra-y-hidden">
        <?php 
 
         if (!isset($_GET[':']) && !isset($_GET["servicios"])) 
@@ -294,10 +287,7 @@ switch ($_GET["servicios"])
             autoplaySpeed: 3500,
             speed: 500
         });
-    </script>
-
-
-       
+    </script>       
 </body>
 
 </html>

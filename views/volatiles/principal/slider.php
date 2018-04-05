@@ -1,14 +1,15 @@
 <?php  ?>
 <!-- Intro Section -->
         <div class="view" <?php if (!isset($_SESSION["user_log"])) {
-            ?> style="background: url('img/banner-4.jpg') no-repeat center fixed;" <?php 
+            ?> style="background: url('img/banners/banner-4.jpeg') no-repeat center fixed; background-size:cover;" <?php 
         }else{
             if ($user_["dealta"] == 0) {
-                ?> style="background: url('img/banner-2.jpg') no-repeat center fixed;" <?php 
+                ?> style="background: url('img/banners/banner-2.jpeg') no-repeat center fixed; background-size:cover;" <?php 
             }else{
-                ?> style="background: url('img/banner-1.png') no-repeat center fixed;" <?php
+                ?> style="background: url('img/banners/banner-1.png') no-repeat center fixed; background-size:cover;" <?php
             }
-        } ?>  >
+        } ?>>
+            <div class="mask rgba-black-light barra-x-hidden barra-y-hidden">
             <div class="full-bg-img">
                 <div class="container flex-center">
                     <div class="col-md-12 white-text text-center welcome">
@@ -20,7 +21,7 @@
                                     if ($user_["dealta"] == 0) {
                                        ?> <strong>Ahora eres parte de array</strong><p>Activa tu cuenta con el link que hemos enviado a tu correo.</p> <?php 
                                     }else{
-                                        ?> <strong>Hola, Bienvenid@</strong> <?php
+                                        ?> <strong>Hola, Bienvenido</strong> <?php
                                     }
                                 } ?>
                                 
@@ -32,7 +33,7 @@
                                     if ($user_["dealta"] == 0) {
                                        ?> <strong>Ahora eres parte de array</strong> <?php 
                                     }else{
-                                        ?> <strong>Hola, Bienvenid@</strong> <?php
+                                        ?> <strong>Hola, Bienvenido</strong> <?php
                                     }
                                 } ?>
                             </h1>

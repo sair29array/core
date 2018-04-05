@@ -10,8 +10,8 @@ if (isset($_GET['Reg-empresa'])) {
 	if (!isset($_SESSION["user_log"])) {
 
 		?>
-			<div class="row justify-content-center text-center">
-                <div class="col-12">
+			<div class="row justify-content-center margen-superior text-center">
+                <div class="col-12 margen-superior wow zoomIn" data-wow-delay="0.4s">
                     <h3 class="mt-5 mb-0">
                         <span><strong style="color: #1195ac;" >Plan Medium</strong> Radio Online Streaming HD</span>
                     </h3>
@@ -33,7 +33,7 @@ if (isset($_GET['Reg-empresa'])) {
 		?>
     <form action="" method="POST">
 		<div class="row justify-content-center text-center">
-            <div class="col-12 col-md-9 " >
+            <div class="col-12 col-md-9 margen-superior wow zoomIn" data-wow-delay="0.4s" >
                 
                      <h3 class="mt-5 mb-0">
                         <span><strong style="color: #1195ac;" >Plan Medium </strong> Radio Online Streaming HD</span>
@@ -44,7 +44,7 @@ if (isset($_GET['Reg-empresa'])) {
                         $nit_empresa = $user_['nit_empresa'];
                         if ($datos_user == 1) {
                             ?>
-                            <p class="banner-txt">Anteriormente ingresaste tus datos, si no hay algo que actualizar, simplemente debes dar clic en "continuar".</p>
+                            <p class="banner-txt">Anteriormente ingresaste tus datos, si no hay amdo que actualizar, simplemente debes dar clic en</p>
                             <?php 
                         }else{
                             ?> 
@@ -74,29 +74,28 @@ if (isset($_GET['Reg-empresa'])) {
             <?php  // lo que quiero con esto es cambiar el boton o el nombre del boton para seguir con el contrato del servicio -- Diseño de paginas web - plan básico
                 if (!isset($_GET["Reg-empresa"])) {
                     ?>
-                    <div class="col-12 col-md-3 " >
+                    <div class="col-12 col-md-2 margen-superior wow zoomIn" data-wow-delay="0.4s">
                     <h3 class="mt-5 mb-0"></h3>
-                     <button  type="submit" name="continuar_contrato" class="btn boton-c btn-lg mb-5">Continuar <i class="fa fa-caret-right"></i></button>
+                     <button  type="submit" name="continuar_contrato" class="btn boton-c btn-md mb-5">Continuar <i class="fa fa-caret-right"></i></button>
                     </div>
                     <?php 
                 }else{
                     if (!isset($_GET['solicitud-enviada'])) {
                     if ($user_['nit_empresa'] =="" AND $user_['empresa']== ""){ 
                     ?>
-                     <div class="col-12 col-md-3 " >
+                     <div class="col-12 col-md-2 " >
                     <h3 class="mt-5 mb-0"></h3>
-                     <button  type="submit" name="continuar_contrato2" class="btn boton-c btn-lg mb-5">Continuar <i class="fa fa-caret-right"></i></button>
+                     <button  type="submit" name="continuar_contrato2" class="btn boton-c btn-md mb-5">Continuar <i class="fa fa-caret-right"></i></button>
                     </div>
                     <?php 
                     }else{
                         
                         ?>
-                     <div class="col-12 col-md-3 " >
+                     <div class="col-12 col-md-3 margen-superior" >
                     <h3 class="mt-5 mb-0"></h3>
-                     <button  type="submit" name="continuar_contrato2si" class="btn boton-c btn-lg mb-5">Si <i class="fa fa-caret-right"></i></button>
-                      <button  type="submit" name="continuar_contrato2no" class="btn boton-c btn-lg mb-5">No <i class="fa fa-caret-right"></i></button>
+                        <button  type="submit" name="continuar_contrato2si" class="btn boton-c btn-md mb-5">Si <i class="fa fa-caret-right"></i></button>
+                        <button  type="submit" name="continuar_contrato2no" class="btn boton-c btn-md mb-5">No <i class="fa fa-caret-right"></i></button>
                     </div>
-
                     <?php 
                         }
                     }

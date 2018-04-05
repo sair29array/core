@@ -1,5 +1,5 @@
 <?php  ?>
-<section class="redes-sociales">
+<section class="redes-sociales barra-x-hidden barra-y-hidden">
             <div class="container">
                 <!--Grid row-->
                 <div class="row py-3 align-items-center wow zoomIn" data-wow-delay="0.4s">

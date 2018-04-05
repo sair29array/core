@@ -14,8 +14,7 @@
  	
  if (!isset($_GET["Reg-empresa"])) {
   ?>
- 
-   <div class="container">
+   <div class="container barra-x-hidden">
     	<div class="row">
     		
     		<div class="col-12 col-md-6 mt-3 mb-5 wow fadeInLeft" data-wow-delay="0.4s">
@@ -44,13 +43,7 @@
                             <i class="fa fa-envelope prefix grey-text disabled"></i>
                             <input disabled="true"  required="required" name="correo"  value="<?php echo $email; ?>" type="email" id="materialFormCardEmailEx" class="form-control">
                             <label for="materialFormCardEmailEx" class="font-weight-light">Correo</label>
-                        </div>
-
-                       
-
-                     
-
-                       
+                        </div>                       
                     <!-- Material form register -->
 
                 </div>
@@ -60,13 +53,6 @@
             </div>
             <!-- Card -->
     		</div>
-    		
-
-
-
-
-
-
     		<div class="col-12 col-md-6 mt-3 mb-5 wow fadeInRight" data-wow-delay="0.4s">
 			<!-- tarjeta-->
             <div class="card" >

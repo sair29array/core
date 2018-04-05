@@ -8,6 +8,37 @@ if ( isset($_GET['user'])) {
     <?php 
    
 }
+///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
+///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
+///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
+require_once("config/social_login/vendor/autoload.php");
+require_once("config/social_login/app/clases/google_auth.php");
+require_once("config/social_login/app/init.php");
+
+$googleClient = new Google_client();
+$auth = new GoogleAuth($googleClient);
+
+if (isset($_GET["code"])) // detecta si existe un token de google a través de GET
+{
+	$checkRedirectCode = $auth->checkRedirectCode($_GET["code"]);
+	 if($checkRedirectCode == true) {
+		
+	$_SESSION['user_log'] = $_GET["code"];
+	//$payload = $auth->getPayload();
+	//$coorreo = $payload["email"];
+	?> <script>location.href = "./<?php //echo $coorreo; ?>";</script> <?php 
+	}
+
+	//die($_GET["code"]);
+
+	//$sair->social_login_anality($email,$tockenGoogle,$nombre,$apellidos); // esta función se encuentra en PROCESS.PHP 
+	//sirve para decidir entre REGISTRAR AL USER QUE ACABA DE ACCEDER O SIMPLEMENTE LOGUEARLO ()
+}
+///////////////////////////////////SOSIAL LOGIN CONFIG////////////////////////////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
+///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
+///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
+///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
+
  ?>
     <section class="iniciar-sesion">
     	<div class="container">
@@ -21,8 +52,9 @@ if ( isset($_GET['user'])) {
     		<div class="col-12 col-sm-12 col-md-5 mt-3 mb-5 wow fadeInLeft text-center" data-wow-delay="0.4s">
 	    		<h1 class="h5-responsive text-center ">Con tus redes sociales:</h1>
 	    		<div class="mt-4">
-					<a href="#" role="button" class="btn btn-lg btn-primary waves-effect"><i class="fab fa-facebook-f"></i> | Ingresa con Facebook</a>
-					<a href="#" role="button" class="btn btn-lg btn-danger waves-effect "><i class="fab fa-google"></i> | Ingresar con Google</a>
+					<a href="./?:=iniciar-sesion&login=Facebook" role="button" class="btn btn-lg btn-primary waves-effect"><i class="fab fa-facebook-f"></i> | Ingresa con Facebook</a>
+					<?php $urlApiGoogle = $auth->GetUrlApiGoogle(); ?>
+					<a href="<?php echo $urlApiGoogle; ?>" role="button" class="btn btn-lg btn-danger waves-effect "><i class="fab fa-google"></i> | Ingresar con Google</a>
 					
 	    		</div>
 	    		<div class="w-100"></div>

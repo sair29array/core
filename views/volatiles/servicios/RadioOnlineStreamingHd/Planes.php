@@ -16,19 +16,19 @@ foreach ($PlanPremium as $pp) {
    $precio_plan_Premium = number_format($pp["precio"] );
 }
  ?>
-<div class="row planes justify-content-between " id="planes" >
+<div class="row planes justify-content-between barra-x-hidden" id="planes" >
                 <div class="container mb-5">
                     <div class="row justify-content-center">
-                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-2">
+                        <div class="col-12 col-sm-6 col-md-4 margen-superior mt-5 mb-2 wow zoomIn" data-wow-delay="0.4s">
                             <div align="center">
                                 <div class="card" >
                                     <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-básico">
                                         
                                         <div class="card-header stylish-color white-text">
-                                        <!--h4>PLAN BASICO</h4-->
+                                        <span class="h2-responsive mb-0" >PLAN BÁSICO</span>
                                         <hr>
                                         <p>
-                                            <span class="h2-responsive mb-0" >PLAN BÁSICO</span>
+                                            
                                             <!--span class="h1-responsive mb-0"><?php// echo "$".$precio_plan_basico; ?></span-->
                                             <h6 class="mt-0">Escoje este plan y pagas según tus necesidades.</h6>
                                         </p>
@@ -74,23 +74,24 @@ foreach ($PlanPremium as $pp) {
                                                 <strong>Costos adicionales</strong> Hosting + dominio (Estabilidad en la web) cada
                                                 3 meses</p>
 
-                                            <div class="card-footer text-center">
-                                                <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-básico"><button class="btn boton-c btn-lg">Solicitar</button></a>
-                                            </div>
+                                            
                                         </div>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-básico"><button class="btn boton-c btn-md">Solicitar</button></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
+                        <div class="col-12 col-sm-6 col-md-4 margen-superior mt-5 mb-2 wow zoomIn" data-wow-delay="0.4s">
                             <div align="center">
                                 <div class="card">
                                     <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-medium">
                                         <div class="card-header primary-color white-text">
-                                        <!--h4>PLAN MEDIUM</h4-->
+                                          <span class="h2-responsive mb-0">PLAN MEDIUM</span>
                                         <hr>
                                         <p>
-                                            <span class="h2-responsive mb-0">PLAN MEDIUM</span>
+                                          
                                             
                                             <!--span class="h1-responsive mb-0"><?php // echo "$".$precio_plan_medium; ?></span-->
                                             <h6 class="mt-0">Escoje este plan y pagas según tus necesidades. </h6>
@@ -139,20 +140,20 @@ foreach ($PlanPremium as $pp) {
 
                                     </div>
                                      <div class="card-footer text-center">
-                                                <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-medium"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                                <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-medium"><button class="btn boton-c btn-md">Solicitar</button></a>
                                      </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
+                        <div class="col-12 col-sm-6 col-md-4 margen-superior mt-5 mb-2 wow zoomIn" data-wow-delay="0.4s">
                             <div align="center">
                                 <div class="card">
                                     <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-premium">
                                         <div class="card-header stylish-color white-text">
-                                        <!--h4>PLAN PREMIUM</h4-->
+                                         <span class="h2-responsive mb-0">PLAN PREMIUM</span>
                                         <hr>
                                         <p>
-                                            <span class="h2-responsive mb-0">PLAN PREMIUM</span>
+                                           
                                             <!--span class="h1-responsive mb-0"><?php// echo "$".$precio_plan_Premium; ?></span-->
                                             <h6 class="mt-0">Escoje este plan y pagas según tus necesidades.</h6>
                                         </p>
@@ -202,7 +203,7 @@ foreach ($PlanPremium as $pp) {
 
                                     </div>
                                     <div class="card-footer text-center" >
-                                                <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-premium"><button class="btn boton-c btn-lg">Solicitar</button></a>
+                                        <a href="./?servicios=radio_online_streaming_hd&solicitud=plan-premium"><button class="btn boton-c btn-md">Solicitar</button></a>
                                     </div>
                                 </div>
                             </div>

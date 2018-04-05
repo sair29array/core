@@ -1,8 +1,7 @@
 <?php 
 if (!isset($_SESSION["user_log"])) { ?> <script>window.location="./"</script> <?php  }
  ?>
-
-    <section class="cuenta">
+    <section class="cuenta barra-x-hidden">
         <div class="container-fluid">
             <div class="row user-name">
                 <div class="container">

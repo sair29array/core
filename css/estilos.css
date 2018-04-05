@@ -8,13 +8,205 @@ body,
 main {
   background: #FFFFFF;
   font-family: Poppins;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/*estilos nav-header */
+.barra-x-hidden {
+  overflow-x: hidden; }
+
+.barra-y-hidden {
+  overflow-y: hidden; }
+
+.margen-superior {
+  margin-top: 70px; }
+
 .view {
   background: url("../img/banner-1.png") no-repeat center fixed;
   background-size: cover; }
 
+/*portafolio */
+.portafolio {
+  margin-top: 70px;
+  background: #f2f2f2; }
+
+.portafolio .card {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 8px; }
+
+.portafolio .card:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.1); }
+
+.portafolio .card-header {
+  background-size: cover;
+  height: 140px;
+  width: auto; }
+
+.portafolio .card-title {
+  font-size: 23px;
+  /*nombre de las tarjetas */ }
+
+.libertad {
+  background: url("../img/diseno-web/libertad.png"); }
+
+.rentacards4u {
+  background: url("../img/diseno-web/rentcars.png"); }
+
+.darkclub {
+  background: url("../img/diseno-web/dark-club.png"); }
+
+.complices {
+  background: url("../img/diseno-web/complices.png"); }
+
+.donde-aquellos {
+  background: url("../img/diseno-web/donde-aquellos.png"); }
+
+.mobiliarios {
+  background: url("../img/diseno-web/mobiliarios-farmasa.png"); }
+
+.proinsumos {
+  background: url("../img/diseno-web/proinsumos.png"); }
+
+.historias-no-contadas {
+  background: url("../img/diseno-web/historias-no-contadas.png"); }
+
+.hotel-klary {
+  background: url("../img/diseno-web/hotel-klary.png"); }
+
+/*titulo de cada card del portafolio */
+.title-portafolio {
+  color: #ff3a5f;
+  font-weight: 600; }
+
+/*botones gradientes */
+.boton1 {
+  background: #3a3a50;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem; }
+
+.boton1:hover {
+  background: #00BCD4; }
+
+.boton2 {
+  background: #00BCD4;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem; }
+
+.boton2:hover {
+  background: #3a3a50; }
+
+.boton-c {
+  background: linear-gradient(30deg, #3a3a50, #00BCD4);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem; }
+
+.boton-c:hover {
+  background: linear-gradient(30deg, #00BCD4, #ff3a5f); }
+
+/* Footer */
+footer {
+  background: #263238;
+  position: relative; }
+
+footer hr {
+  background: #00b2f4;
+  border: 0;
+  height: 5px; }
+
+footer a:hover {
+  color: #00b2f4; }
+
+.texto-secundario {
+  color: #00b2f4; }
+
+/* estilos loader page */
+#contenedor {
+  background: #FFFFFF;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  transition: all 1s;
+  z-index: 10000; }
+
+#cargar {
+  border: 8px solid #eeeeee;
+  border-top-color: #f43458;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation: girar 0.3s linear infinite; }
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+/*mapa somos */
+.tierra {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: -30px -30px 0 -10px rgba(0, 0, 0, 0.15) inset, -60px -20px 0 0 rgba(0, 0, 0, 0.1) inset, 5px 5px 0 0 rgba(255, 255, 255, 0.2);
+  background: url(../img/mapa.png);
+  background-size: cover;
+  -webkit-animation: tierra-girando 15s infinite linear;
+  -moz-animation: tierra-girando 15s infinite linear;
+  -o-animation: tierra-girando 15s infinite linear; }
+
+@keyframes tierra-girando {
+  0% {
+    background-position: 0 center; }
+  100% {
+    background-position: -796px center; } }
+/*navbar */
 .navbar {
   background-color: #1e1f20;
   font-size: 18px;
@@ -84,148 +276,10 @@ main {
 .img-cohete {
   max-width: 380px; }
 
-/*mapa somos */
-.tierra {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  border-radius: 50%;
-  box-shadow: -30px -30px 0 -10px rgba(0, 0, 0, 0.15) inset, -60px -20px 0 0 rgba(0, 0, 0, 0.1) inset, 5px 5px 0 0 rgba(255, 255, 255, 0.2);
-  background: url(../img/mapa.png);
-  background-size: cover;
-  -webkit-animation: tierra-girando 15s infinite linear;
-  -moz-animation: tierra-girando 15s infinite linear;
-  -o-animation: tierra-girando 15s infinite linear; }
-
-@keyframes tierra-girando {
-  0% {
-    background-position: 0 center; }
-  100% {
-    background-position: -796px center; } }
-/*estilos boton ir arriba */
-.ir-arriba {
-  display: none;
-  padding: 15px;
-  background: #ff3a5f;
-  color: #FFFFFF;
-  font-size: 20px;
-  cursor: pointer;
-  position: fixed;
-  bottom: 25px;
-  left: 20px;
-  z-index: 2;
-  border-radius: 25em; }
-
-.ir-arriba:hover {
-  background: #00BCD4; }
-
-/*botones gradientes */
-.boton1 {
-  background: #3a3a50;
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: 375rem 75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 25rem; }
-
-.boton1:hover {
-  background: #00BCD4; }
-
-.boton2 {
-  background: #ff3a5f;
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: 375rem 75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 25rem; }
-
-.boton2:hover {
-  background: #3a3a50; }
-
-.boton-c {
-  background: linear-gradient(30deg, #3a3a50, #00BCD4);
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: 375rem 75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 25rem; }
-
-.boton-c:hover {
-  background: linear-gradient(30deg, #00BCD4, #ff3a5f); }
-
-/* estilos loader page */
-#contenedor {
-  background: #FFFFFF;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  transition: all 1s;
-  z-index: 10000; }
-
-#cargar {
-  border: 8px solid #eeeeee;
-  border-top-color: #f43458;
-  height: 50px;
-  width: 50px;
-  border-radius: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  animation: girar 0.3s linear infinite; }
-
-@keyframes girar {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
-/*section herramientas */
-.herramientas {
-  background: url("../img/herramientas.jpg") no-repeat center fixed;
-  background-size: cover; }
-
-.herramientas .title-h {
-  font-weight: 900;
-  font-style: normal;
-  font-size: 35px;
-  line-height: 1;
-  letter-spacing: 0px;
-  color: #ff3a5f; }
-
 /* section metodologia de trabajo */
 .m-trabajo {
-  background: #f2f2f2;
+  background: #ebeced;
+  background-size: cover;
   font-weight: 600;
   color: #3a3a50; }
 
@@ -243,41 +297,12 @@ main {
 .img-metodologia {
   max-height: 60px; }
 
-/* section redes-sociales */
-.redes-sociales {
-  background: #00BCD4;
-  color: #FFFFFF; }
-
-.redes-sociales .title-rds {
-  font-weight: 900;
-  font-style: normal;
-  font-size: 33px;
-  line-height: 1;
-  letter-spacing: 0px; }
-
-/* Footer */
-footer {
-  background: #263238;
-  position: relative; }
-
-footer hr {
-  background: #00b2f4;
-  border: 0;
-  height: 5px; }
-
-footer a:hover {
-  color: #00b2f4; }
-
-.texto-secundario {
-  color: #00b2f4; }
-
 /* estilos iniciar sesion y crear cuenta */
 .iniciar-sesion,
 .crear-cuenta {
   margin-top: 80px;
   background: #FFFFFF;
-  color: #000000;
-  overflow-x: hidden; }
+  color: #000000; }
 
 .iniciar-sesion a {
   color: #000000; }
@@ -320,7 +345,8 @@ footer a:hover {
   padding: 375rem 75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 25rem; }
+  border-radius: 25rem;
+  border: 1px solid #FFFFFF; }
 
 .boton3:hover {
   background: linear-gradient(20deg, #00b2f4, #f43458); }
@@ -338,13 +364,6 @@ footer a:hover {
   margin-bottom: 0px; }
 
 /*estilos serivicios */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
 .servicios {
   margin-top: 70px;
   background: url("../img/servicios.jpg") no-repeat center fixed;
@@ -429,16 +448,6 @@ footer a:hover {
 .img-grafico {
   max-width: 290px; }
 
-/*mi cuenta */
-.cuenta {
-  background: #FFFFFF;
-  margin-top: 90px; }
-
-.user-name {
-  background: #FAFAFA;
-  border-bottom: solid 2px #eeeeee;
-  padding: 10px; }
-
 /*section lineas de accion */
 .lineas {
   background: #3a3a50; }
@@ -451,20 +460,6 @@ footer a:hover {
 
 .linea-img {
   max-width: 300px; }
-
-/* estilos dise├▒o web */
-.dise├▒o-web {
-  background: #f2f2f2;
-  margin-top: 70px;
-  font-family: Montserrat; }
-
-.banner-title {
-  font-size: 55px;
-  color: #3a3a50;
-  font-weight: 600; }
-
-.banner-txt {
-  color: #3a3a50; }
 
 /*tarjetas planes */
 .planes .card {
@@ -495,60 +490,77 @@ footer a:hover {
   transition: all 200ms ease-in;
   transform: scale(1.1); }
 
-/*portafolio */
-.portafolio {
+/*estilos boton ir arriba */
+.ir-arriba {
+  display: none;
+  padding: 15px;
+  background: #ff3a5f;
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 25px;
+  left: 20px;
+  z-index: 2;
+  border-radius: 25em; }
+
+.ir-arriba:hover {
+  background: #00BCD4; }
+
+/* estilos dise├▒o web */
+.dise├▒o-web {
+  background: #f2f2f2;
   margin-top: 70px;
-  background: #f2f2f2; }
+  font-family: Montserrat; }
 
-.portafolio .card {
-  margin-bottom: 15px;
-  margin-top: 15px;
-  margin-left: 5px;
-  margin-right: 8px; }
+.title-dise├▒o-web {
+  margin-top: 100px; }
 
-.portafolio .card:hover {
-  transition: all 200ms ease-in;
-  transform: scale(1.1); }
-
-.portafolio .card-header {
-  background-size: cover;
-  height: 140px;
-  width: auto; }
-
-.portafolio .card-title {
-  font-size: 23px;
-  /*nombre de las tarjetas */ }
-
-.libertad {
-  background: url("../img/libertad.png"); }
-
-.rentacards4u {
-  background: url("../img/rentcars.png"); }
-
-.darkclub {
-  background: url("../img/dark-club.png"); }
-
-.complices {
-  background: url("../img/complices.png"); }
-
-.donde-aquellos {
-  background: url("../img/donde-aquellos.png"); }
-
-.mobiliarios {
-  background: url("../img/mobiliarios-farmasa.png"); }
-
-.proinsumos {
-  background: url("../img/proinsumos.png"); }
-
-.historias-no-contadas {
-  background: url("../img/historias-no-contadas.png"); }
-
-.hotel-klary {
-  background: url("../img/hotel-klary.png"); }
-
-/*titulo de cada card del portafolio */
-.title-portafolio {
-  color: #ff3a5f;
+.banner-title {
+  font-size: 40px;
+  color: #3a3a50;
   font-weight: 600; }
+
+.banner-txt {
+  color: #3a3a50; }
+
+/*mi cuenta */
+.cuenta {
+  background: #FFFFFF;
+  margin-top: 90px; }
+
+.user-name {
+  background: #FAFAFA;
+  border-bottom: solid 2px #eeeeee;
+  padding: 10px; }
+
+/* section redes-sociales */
+.redes-sociales {
+  background: #00BCD4;
+  color: #FFFFFF; }
+
+.redes-sociales .title-rds {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 33px;
+  line-height: 1;
+  letter-spacing: 0px; }
+
+/*section herramientas */
+.herramientas {
+  background: url("../img/herramientas.jpg") no-repeat center fixed;
+  background-size: cover; }
+
+.herramientas .title-h {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 1;
+  letter-spacing: 0px;
+  color: #ff3a5f; }
+
+/*solicitud */
+.title-solicitud {
+  font-size: 25px; }
 
 /*# sourceMappingURL=estilos.css.map */
