@@ -12,28 +12,84 @@ if ( isset($_GET['user'])) {
 ///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
 ///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
 require_once("config/social_login/vendor/autoload.php");
-require_once("config/social_login/app/clases/google_auth.php");
-require_once("config/social_login/app/init.php");
 
-$googleClient = new Google_client();
-$auth = new GoogleAuth($googleClient);
+//Step 1: Enter you google account credentials
 
-if (isset($_GET["code"])) // detecta si existe un token de google a través de GET
-{
-	$checkRedirectCode = $auth->checkRedirectCode($_GET["code"]);
-	 if($checkRedirectCode == true) {
-		
-	$_SESSION['user_log'] = $_GET["code"];
-	//$payload = $auth->getPayload();
-	//$coorreo = $payload["email"];
-	?> <script>location.href = "./<?php //echo $coorreo; ?>";</script> <?php 
-	}
+$g_client = new Google_Client();
 
-	//die($_GET["code"]);
+$g_client->setClientId("886385635344-j4aic13ehet2s0e7ab3jdlea05ifblag.apps.googleusercontent.com");
+$g_client->setClientSecret("wCVWwmlhXpu48VjRf3FhOOJf");
+$g_client->setRedirectUri("https://www.array.com.co/?:=iniciar-sesion");
+$g_client->setScopes("email");
 
-	//$sair->social_login_anality($email,$tockenGoogle,$nombre,$apellidos); // esta función se encuentra en PROCESS.PHP 
-	//sirve para decidir entre REGISTRAR AL USER QUE ACABA DE ACCEDER O SIMPLEMENTE LOGUEARLO ()
+//Step 2 : Create the url
+$auth_url = $g_client->createAuthUrl();
+//echo "<a href='$auth_url'>Login Through Google </a>";
+
+//Step 3 : Get the authorization  code
+$code = isset($_GET['code']) ? $_GET['code'] : NULL;
+
+//Step 4: Get access token
+if($code !== "") {
+
+    try {
+
+        $token = $g_client->fetchAccessTokenWithAuthCode($code);
+        $g_client->setAccessToken($token);
+
+    }catch (Exception $e){
+        //echo $e->getMessage();
+    }
+
+
+
+
+    try {
+        $oAuth = new Google_Service_Oauth2($g_client);
+        $pay_load = $oAuth->userinfo_v2_me->get();
+
+
+    }catch (Exception $e) {
+       // echo $e->getMessage();
+    }
+
+} else{
+    $pay_load = null;
 }
+
+if($pay_load!== null)
+{
+	///////¿Es un usuario nuevo o un usuario ya existente?//////////////
+    $confirmEmail = $sair->ConfirmEmail($pay_load["email"]);
+    if ($confirmEmail == 0) /// si en la DB no hay correos iguales a este
+    {
+    	$nombres = $pay_load["givenName"];
+    	$apellidos = $pay_load["familyName"];
+    	$email = $pay_load["email"];
+    	$pass = $pay_load["email"]."array981129sa";
+    	$sair->CrearCuentaParaNuevoUsuario($nombres,$apellidos,$email,$pass);
+    	// creamos la sesión para este user
+    	$_SESSION["user_log"] =  $email;
+    	//redirect to home:
+    	?><script>window.location="./?<?php echo "Hello! ".$pay_load["name"]; ?>" ; </script><?php 
+    }else{
+    	// creamos la sesión para este user
+    	$_SESSION["user_log"] =  $pay_load["email"];
+    	//redirect to home:
+    	?><script>window.location="./?<?php echo "Hello! ".$pay_load["name"]; ?>" ; </script><?php 
+    }
+
+  
+    
+
+
+
+}
+
+
+
+
+
 ///////////////////////////////////SOSIAL LOGIN CONFIG////////////////////////////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
 ///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
 ///////////////////////////////////SOSIAL LOGIN CONFIG/////////////////////
@@ -52,9 +108,9 @@ if (isset($_GET["code"])) // detecta si existe un token de google a través de G
     		<div class="col-12 col-sm-12 col-md-5 mt-3 mb-5 wow fadeInLeft text-center" data-wow-delay="0.4s">
 	    		<h1 class="h5-responsive text-center ">Con tus redes sociales:</h1>
 	    		<div class="mt-4">
-					<a href="./?:=iniciar-sesion&login=Facebook" role="button" class="btn btn-lg btn-primary waves-effect"><i class="fab fa-facebook-f"></i> | Ingresa con Facebook</a>
-					<?php $urlApiGoogle = $auth->GetUrlApiGoogle(); ?>
-					<a href="<?php echo $urlApiGoogle; ?>" role="button" class="btn btn-lg btn-danger waves-effect "><i class="fab fa-google"></i> | Ingresar con Google</a>
+					<a href="./?:=iniciar-sesion&login=Facebook" role="button" class="btn btn-lg btn-primary waves-effect disabled"><i class="fab fa-facebook-f"></i> | Ingresa con Facebook</a>
+					
+					<a href="<?php echo $auth_url; ?>" role="button" class="btn btn-lg btn-danger waves-effect "><i class="fab fa-google"></i> | Ingresar con Google</a>
 					
 	    		</div>
 	    		<div class="w-100"></div>

@@ -1,162 +1,151 @@
-<?php  ?>
 
+ <!--Section: Team v.3-->
+ <section class="team-section pb-4 ">
+        
+       
+        <div class="row mb-lg-4 text-center text-md-left">
 
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header libertad">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase">libertad stereo</p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="http://libertadstereo.com/la_piragua_stereo_la_nueva_emisora_del_alto_sinu/" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header rentacards4u">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase">rentcards</p>
-                            </div>
-                           
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="https://rentcars4u.com/" role="buttom" class="btn boton-c btn-md"
-                                target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header mobiliarios">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase"> Mobiliarios farmasa</p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="https://mobiliariosfamarsa.com/" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header darkclub">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase"> darkclub <span class="red">(+18)</span></p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="https://darkclubnudista.com" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header hotel-klary">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase">hotel klary</p>
-                            </div>
-                           
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="http://hotelklary.com/" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header complices">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase"> complices <span class="red">(+18)</span></p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="http://complicesspa.com/" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header proinsumos">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase">proinsumos medicos</p>
-                            </div>
-                          
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="http://proinsumedicos.com/" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header historias-no-contadas">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase">historias no contadas</p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="http://historiasnocontadas.com/" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header donde-aquellos">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase"> donde aquellos</p>
-                            </div>
-                           
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="http://dondeaquellosbar.com/" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4">
+
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/dev_recursos/rentcars.png" class="rounded img-fluid z-depth-1" alt="First sample avatar image">
                     </div>
                 </div>
 
-</div>
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>RentCars</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://rentcars4u.com/">https://rentcars4u.com/</a></h6>
+                    <p class="grey-text">Las principales rentadoras de vehículos en un solo sitio .</p>
+
                    
-              
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4">
+
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/dev_recursos/mobiliarios-farmasa.png" class="rounded img-fluid z-depth-1" alt="Second sample avatar image">
+                    </div>
+                </div>
+
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>Mobiliarios Famarsa</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://mobiliariosfamarsa.com/">https://mobiliariosfamarsa.com/</a></h6>
+                    <p class="grey-text">Muebles de Oficina y para Negocios.</p>
+
+                  
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row text-center text-md-left">
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4">
+
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/dev_recursos/libertad.png" class="rounded img-fluid z-depth-1" alt="Fourth sample avatar image">
+                    </div>
+                </div>
+
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>Libertad Stereo</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="http://www.libertadstereo.com/">http://www.libertadstereo.com/</a></h6>
+                    <p class="grey-text">Emisora Online - Radio Streaming HD.</p>
+
+                   
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/dev_recursos/hotel-klary.png" class="rounded img-fluid z-depth-1" alt="Fifth sample avatar image">
+                    </div>
+                </div>
+
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>Hotel Klary</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="http://hotelklary.com/">http://hotelklary.com/</a></h6>
+                    <p class="grey-text">Realiza tu reserva en el hotel klary - Moñitos - Córdoba.</p>
+
+                
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/dev_recursos/donde-aquellos.png" class="rounded img-fluid z-depth-1" alt="Fifth sample avatar image">
+                    </div>
+                </div>
+
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>Donde aquellos</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="http://dondeaquellosbar.com/">http://dondeaquellosbar.com/</a></h6>
+                    <p class="grey-text">Donde aquellos Bar.</p>
+
+                
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/dev_recursos/historias-no-contadas.png" class="rounded img-fluid z-depth-1" alt="Fifth sample avatar image">
+                    </div>
+                </div>
+
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>Historias no contadas</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="http://historiasnocontadas.com/">http://historiasnocontadas.com/</a></h6>
+                    <p class="grey-text">...</p>
+
+                
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+    </section>
+    <!--Section: Team v.3-->
+            

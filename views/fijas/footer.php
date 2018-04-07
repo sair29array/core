@@ -1,6 +1,6 @@
 <?php  ?>
 <!--Footer-->
-    <footer class="page-footer center-on-small-only mt-0">
+    <footer class="page-footer center-on-small-only mt-0 barra-x-hidden barra-y-hidden">
         <!--Footer links-->
         <div class="container">
             <div class="row wow fadeInUp" data-wow-delay="0.5s">
@@ -23,7 +23,7 @@
                         <a href="./?:=productos-array">Productos</a>
                     </p>
                     <p>
-                        <a href="./?:=Portafolio-array&categoria=DesarrolloWeb">Proyectos</a>
+                        <a href="./?:=Portafolio-array">Proyectos</a>
                     </p>
                 </div>
                 <!--/.Second column-->
@@ -79,7 +79,7 @@
             <div class="container-fluid">
                 © 2018 Copyright:
                 <a href="https://www.array.com.co" >
-                    <strong> www.array.com.co</strong>
+                    <strong> ARRAY | EXPERTOS EN TIC </strong>
                 </a>
             </div>
         </div>

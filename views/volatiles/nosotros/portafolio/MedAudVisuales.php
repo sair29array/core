@@ -1,20 +1,12 @@
-<?php  ?>
 
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header libertad">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase">libertad stereo</p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="http://libertadstereo.com/la_piragua_stereo_la_nueva_emisora_del_alto_sinu/" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver en vivo
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+ <!--Section: Team v.3-->
+ <section class="team-section pb-4 " >
+        
+       
+        <h2 class="h1 text-center py-5">Actualizando contenido...</h2>
+        <!--Section description-->
+        <p class="grey-text pb-5 text-center">Estamos trabajando para actualizar el contenido de esta página. cargando proyectos de MediosAudVisuales...</p>
 
+    </section>
+    <!--Section: Team v.3-->
+            

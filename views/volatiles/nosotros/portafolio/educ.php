@@ -1,38 +1,56 @@
-<?php  ?>
 
-                <div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header danielydiego">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase">Repositorio 1</p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver 
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
+ <!--Section: Team v.3-->
+ <section class="team-section pb-4 ">
+        
+       
+        <div class="row mb-lg-4 text-center text-md-left">
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4">
+
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/educativos/arrayedu.png" class="rounded img-fluid z-depth-1" alt="array | Proyecotos educativos">
                     </div>
-            	</div>
+                </div>
 
-            	<div class="col-12 col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header danielydiego">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <p class="text-uppercase">Repositorio 2</p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="" role="buttom" class="btn boton-c btn-md" target="_blank"> Ver 
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </div>
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>After Media</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://www.array.com.co/EnDesarrollo/after_media/">https://www.array.com.co/AfterMedia</a></h6>
+                    <p class="grey-text">comparte y usa contenidos multimedia para enseñar y aprender.</p>
+
+                   
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+             <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4">
+
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/educativos/arrayedu.png" class="rounded img-fluid z-depth-1" alt="array | Proyecotos educativos">
                     </div>
-            	</div>
+                </div>
 
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>Elipsis</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://www.array.com.co/EnDesarrollo/dd/">https://www.array.com.co/repositorio-daniel&diego/</a></h6>
+                    <p class="grey-text">Un sitio para lectores y escritores.</p>
+
+                   
+                </div>
+
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+
+    </section>
+    <!--Section: Team v.3-->
+            

@@ -141,26 +141,16 @@ switch ($_GET["servicios"])
     <link rel='stylesheet' href='css/slick-theme.min.css'>
 
 
-     <!-- alertify JavaScript -->
-<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
-<!-- CSS -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/alertify.min.css"/>
-<!-- Default theme -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/themes/default.min.css"/>
-<!-- Semantic UI theme -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/themes/semantic.min.css"/>
-<!-- Bootstrap theme -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/themes/bootstrap.min.css"/>
-
+   
 </head>
 
 <body class="barra-x-hidden">
    
 
     <!--loader page -->
-    <!--div id="contenedor">
+    <div id="contenedor">
         <div id="cargar"></div>
-    </div-->
+    </div>
     <!-- fin loader page -->
     <!--Boton de ir arriba-->
     <i class="ir-arriba fa fa-arrow-up fa-2x"></i>

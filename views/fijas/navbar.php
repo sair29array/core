@@ -19,7 +19,7 @@
                 }else if(isset($_GET[':']) || isset($_GET["servicios"])){
                     ?> class="col-sm-12 col-md-12 col-lg-9 collapse navbar-collapse" <?php 
                 }else if (!isset($_GET[':']) && !isset($_GET['user_log'])) {
-                     ?> class="col-sm-12 col-md-12 col-lg-6 collapse navbar-collapse" <?php 
+                     ?> class="col-sm-12 col-md-12 col-lg-8 collapse navbar-collapse" <?php 
                 } ?> id="navbarContent">
                     <!--Links-->
                     <ul class="navbar-nav mr-auto smooth-scroll">
@@ -41,7 +41,7 @@
                         <li class="nav-item">
                             <a <?php if (@$_GET[':']=="Portafolio-array") {
                                 ?> class="nav-link linea-bottom" <?php 
-                            }else {  ?> class="nav-link " <?php } ?> href="./?:=Portafolio-array&categoria=DesarrolloWeb" data-offset="80">Proyectos</a>
+                            }else {  ?> class="nav-link " <?php } ?> href="./?:=Portafolio-array" data-offset="80">Proyectos</a>
                         </li>
 
 
@@ -59,16 +59,8 @@
                             }else {  ?> class="nav-link " <?php } ?> href="./?:=iniciar-sesion" data-offset="80">Iniciar sesión</a>
                         </li>
                            <?php 
-                        } ?>
-                        <?php if (isset($_GET[":"]) || isset($_GET["servicios"])) {
-                           ?>
-                           <li class="nav-item">
-                            <a <?php if (@$_GET[':']=="crear-cuenta") {
-                                ?> class="nav-link linea-bottom" <?php 
-                            }else {  ?> class="nav-link " <?php } ?> href="./?:=crear-cuenta" data-offset="80">Crear cuenta</a>
-                        </li>
-                           <?php 
                         } 
+                        
 
                 }else{
                     ?>
