@@ -68,8 +68,16 @@
                             <a <?php if (@$_GET[':']=="MiCuenta") {
                                 ?> class="nav-link linea-bottom" <?php 
                             }else {  ?> class="nav-link " <?php } ?> href="./?:=MiCuenta" data-offset="80"><?php 
-                            if (@$_GET[':']!=="MiCuenta") {
-                                  echo $name_user; }else{ echo "Mi cuenta"; } ?></a>
+                            if (@$_GET[':']!=="MiCuenta" ) {
+                                if ($name_user !=="") {
+                                    echo $name_user; 
+                                }else{
+                                    echo $user_["email"] ;
+                                }
+                                  
+
+                              }else{ echo "Mi cuenta"; } ?></a>
+                                }
                         </li>
                     <?php 
                 }

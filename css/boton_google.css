@@ -1,0 +1,31 @@
+.boton-google, .boton-login  {
+  background: linear-gradient(30deg,#E53935 , #EF5350);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem;
+  width: 100%;
+   }
+
+.boton-google:hover {
+  background: linear-gradient(30deg, #EF5350, #E53935); }
+
+ .boton-login
+{
+	 background: linear-gradient(30deg, #3a3a50, #00BCD4);
+}
+.boton-login:hover{
+	background: linear-gradient(30deg, #00BCD4, #ff3a5f); 
+}
+.line-thru{display:block;font-size:.875em;margin-bottom:1em;position:relative;text-align:center;width:100%;z-index:1}
+.line-thru:before{width:40px;height:10px;background-color:#fff;content:'';margin:-5px 0 0 -20px;left:50%;position:absolute;top:50%;z-index:-1}
+.line-thru:after{border-bottom:1px solid #000;content:'';display:block;position:absolute;top:49%;width:100%;z-index:-2}

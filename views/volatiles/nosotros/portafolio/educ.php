@@ -18,7 +18,7 @@
                     <h4>
                         <strong>After Media</strong>
                     </h4>
-                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://www.array.com.co/EnDesarrollo/after_media/">https://www.array.com.co/AfterMedia</a></h6>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://www.array.com.co/EnDesarrollo/after_media/">array.com.co/AfterMedia</a></h6>
                     <p class="grey-text">comparte y usa contenidos multimedia para enseñar y aprender.</p>
 
                    
@@ -40,7 +40,7 @@
                     <h4>
                         <strong>Elipsis</strong>
                     </h4>
-                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://www.array.com.co/EnDesarrollo/dd/">https://www.array.com.co/repositorio-daniel&diego/</a></h6>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://www.array.com.co/EnDesarrollo/elipsis">array.com.co/Elipsis</a></h6>
                     <p class="grey-text">Un sitio para lectores y escritores.</p>
 
                    

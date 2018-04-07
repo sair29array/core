@@ -6,7 +6,14 @@ if (!isset($_SESSION["user_log"])) { ?> <script>window.location="./"</script> <?
             <div class="row user-name">
                 <div class="container">
                     <div class="col-12">
-                    <p class="h1-responsive text-uppercase grey-text wow zoomIn" data-wow-delay="0.4s"><?php echo $name_user." ".$apellidos_user; ?></p>
+                    <p class="h5-responsive text-uppercase grey-text wow zoomIn" data-wow-delay="0.4s"><?php 
+                    if ($name_user!=="" && $apellidos_user !== "") {
+                        echo $name_user." ".$apellidos_user; 
+                    }else{
+                        echo $user_["email"]. " // Debes actualizar tus datos personales";
+                    }
+                    
+                    ?></p>
                     </div>
                 </div>
             </div>

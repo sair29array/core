@@ -136,6 +136,7 @@ switch ($_GET["servicios"])
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- estilos propios -->
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/boton_google.css">
     <!-- Estilos de slider vertical de texto -->
     <link rel='stylesheet' href='css/slick.min.css'>
     <link rel='stylesheet' href='css/slick-theme.min.css'>
@@ -148,9 +149,9 @@ switch ($_GET["servicios"])
    
 
     <!--loader page -->
-    <div id="contenedor">
+    <!--div id="contenedor">
         <div id="cargar"></div>
-    </div>
+    </div-->
     <!-- fin loader page -->
     <!--Boton de ir arriba-->
     <i class="ir-arriba fa fa-arrow-up fa-2x"></i>
